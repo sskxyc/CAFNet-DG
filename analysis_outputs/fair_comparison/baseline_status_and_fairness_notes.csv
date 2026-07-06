@@ -1,9 +1,0 @@
-Model,Status,Fairness note,Next action
-A3Net,available,Already run on the same warm/cold masks as CAFNet.,Use paired tests against CAFNet.
-MGPred,partial,Current summary has insufficient fold-level ranking metrics.,Adapt/re-run on mask_mat_750 and blind_mask_mat_750.
-DSGAT,available,Fold-level summaries exist for warm and cold.,Include as existing baseline if manuscript wants it.
-HMMF,downloaded / pending adaptation,Uses biomedical text and multimodal similarity features.,Patch loader to use CAFNet fold masks; mark extra modalities.
-CrossFeat,downloaded / pending adaptation,Uses drug and side-effect semantic/word/fingerprint features.,Map its split format to 10-fold warm and drug-disjoint cold masks.
-HSTrans,same-mask runs available,Uses drug and side-effect substructure Transformer inputs; warm run and cold 10-epoch run use CAFNet fold masks.,Complete the interrupted cold 100-epoch run if HSTrans is needed as a final full-training baseline.
-ADDFP,downloaded / pending adaptation,Dual-task association/frequency model; useful for regression weakness.,Run all 10 folds for cvs1/cvs2 with matching masks or patch split files.
-Global popularity,available,Uses only training-set side-effect prevalence; sanity check for common side effects.,Add to main or supplementary table.

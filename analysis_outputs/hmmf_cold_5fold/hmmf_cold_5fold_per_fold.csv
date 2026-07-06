@@ -1,6 +1,0 @@
-fold,epochs,best_epoch,lr,seed,auc,aupr,rmse,mae,pearson,spearman,acc,seconds,note
-0,10,3,5e-04,default,0.8569,0.2685,1.5244,0.7142,0.1601,0.3788,0.6888,705,epoch sweep entry
-1,10,8,5e-04,default,0.8723,0.3048,0.8621,0.6213,0.4934,0.5545,0.7683,646,epoch sweep entry
-2,10,8,2e-04,42,0.8718,0.4243,2.128,0.8493,0.1491,0.4164,0.7725,712,fold2 rerun with lr=2e-4 seed=42 (original NaN at lr=5e-4)
-3,10,10,5e-04,default,0.8655,0.2816,0.7562,0.5534,0.6042,0.5753,0.762,665,epoch sweep entry
-4,10,10,5e-04,default,0.8651,0.3226,0.8877,0.6574,0.4406,0.425,0.8174,690,epoch sweep entry
