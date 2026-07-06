@@ -1,0 +1,361 @@
+﻿scenario,top_n,rank,side_effect_index,side_effect,train_positive_count
+warm,10,1,621,nausea,508
+warm,10,2,401,headache,455
+warm,10,3,252,dizziness,430
+warm,10,4,243,diarrhoea,425
+warm,10,5,978,vomiting,400
+warm,10,6,80,asthenia,382
+warm,10,7,236,dermatitis,363
+warm,10,8,778,rash,356
+warm,10,9,364,gastrointestinal pain,308
+warm,10,10,2,abdominal pain,304
+warm,20,1,621,nausea,508
+warm,20,2,401,headache,455
+warm,20,3,252,dizziness,430
+warm,20,4,243,diarrhoea,425
+warm,20,5,978,vomiting,400
+warm,20,6,80,asthenia,382
+warm,20,7,236,dermatitis,363
+warm,20,8,778,rash,356
+warm,20,9,364,gastrointestinal pain,308
+warm,20,10,2,abdominal pain,304
+warm,20,11,332,fatigue,295
+warm,20,12,758,pruritus,288
+warm,20,13,207,constipation,274
+warm,20,14,604,musculoskeletal discomfort,265
+warm,20,15,269,dyspepsia,261
+warm,20,16,129,body temperature increased,257
+warm,20,17,215,cough,250
+warm,20,18,505,insomnia,245
+warm,20,19,683,pain,233
+warm,20,20,273,dyspnoea,230
+warm,50,1,621,nausea,508
+warm,50,2,401,headache,455
+warm,50,3,252,dizziness,430
+warm,50,4,243,diarrhoea,425
+warm,50,5,978,vomiting,400
+warm,50,6,80,asthenia,382
+warm,50,7,236,dermatitis,363
+warm,50,8,778,rash,356
+warm,50,9,364,gastrointestinal pain,308
+warm,50,10,2,abdominal pain,304
+warm,50,11,332,fatigue,295
+warm,50,12,758,pruritus,288
+warm,50,13,207,constipation,274
+warm,50,14,604,musculoskeletal discomfort,265
+warm,50,15,269,dyspepsia,261
+warm,50,16,129,body temperature increased,257
+warm,50,17,215,cough,250
+warm,50,18,505,insomnia,245
+warm,50,19,683,pain,233
+warm,50,20,273,dyspnoea,230
+warm,50,21,225,decreased appetite,224
+warm,50,22,92,back pain,215
+warm,50,23,74,arthralgia,211
+warm,50,24,334,feeling abnormal,196
+warm,50,25,445,hypertension,193
+warm,50,26,696,paraesthesia,193
+warm,50,27,861,somnolence,191
+warm,50,28,468,hypotension,189
+warm,50,29,607,myalgia,184
+warm,50,30,35,anaemia,177
+warm,50,31,258,dry mouth,175
+warm,50,32,180,chest pain,169
+warm,50,33,655,oedema,163
+warm,50,34,53,anxiety,160
+warm,50,35,488,infection,158
+warm,50,36,904,thrombocytopenia,156
+warm,50,37,432,hyperhidrosis,155
+warm,50,38,950,urticaria,154
+warm,50,39,599,muscle spasms,153
+warm,50,40,656,oedema peripheral,151
+warm,50,41,342,flatulence,150
+warm,50,42,443,hypersensitivity,149
+warm,50,43,720,pharyngitis,148
+warm,50,44,265,dysgeusia,146
+warm,50,45,246,discomfort,145
+warm,50,46,885,tachycardia,145
+warm,50,47,838,sinusitis,145
+warm,50,48,937,upper respiratory tract infection,140
+warm,50,49,970,vertigo,138
+warm,50,50,930,tremor,137
+warm,100,1,621,nausea,508
+warm,100,2,401,headache,455
+warm,100,3,252,dizziness,430
+warm,100,4,243,diarrhoea,425
+warm,100,5,978,vomiting,400
+warm,100,6,80,asthenia,382
+warm,100,7,236,dermatitis,363
+warm,100,8,778,rash,356
+warm,100,9,364,gastrointestinal pain,308
+warm,100,10,2,abdominal pain,304
+warm,100,11,332,fatigue,295
+warm,100,12,758,pruritus,288
+warm,100,13,207,constipation,274
+warm,100,14,604,musculoskeletal discomfort,265
+warm,100,15,269,dyspepsia,261
+warm,100,16,129,body temperature increased,257
+warm,100,17,215,cough,250
+warm,100,18,505,insomnia,245
+warm,100,19,683,pain,233
+warm,100,20,273,dyspnoea,230
+warm,100,21,225,decreased appetite,224
+warm,100,22,92,back pain,215
+warm,100,23,74,arthralgia,211
+warm,100,24,334,feeling abnormal,196
+warm,100,25,445,hypertension,193
+warm,100,26,696,paraesthesia,193
+warm,100,27,861,somnolence,191
+warm,100,28,468,hypotension,189
+warm,100,29,607,myalgia,184
+warm,100,30,35,anaemia,177
+warm,100,31,258,dry mouth,175
+warm,100,32,180,chest pain,169
+warm,100,33,655,oedema,163
+warm,100,34,53,anxiety,160
+warm,100,35,488,infection,158
+warm,100,36,904,thrombocytopenia,156
+warm,100,37,432,hyperhidrosis,155
+warm,100,38,950,urticaria,154
+warm,100,39,599,muscle spasms,153
+warm,100,40,656,oedema peripheral,151
+warm,100,41,342,flatulence,150
+warm,100,42,443,hypersensitivity,149
+warm,100,43,720,pharyngitis,148
+warm,100,44,265,dysgeusia,146
+warm,100,45,246,discomfort,145
+warm,100,46,885,tachycardia,145
+warm,100,47,838,sinusitis,145
+warm,100,48,937,upper respiratory tract infection,140
+warm,100,49,970,vertigo,138
+warm,100,50,930,tremor,137
+warm,100,51,946,urinary tract infection,136
+warm,100,52,234,depression,135
+warm,100,53,181,chills,134
+warm,100,54,539,leukopenia,133
+warm,100,55,28,alopecia,132
+warm,100,56,688,palpitations,130
+warm,100,57,808,rhinitis,128
+warm,100,58,832,shock,128
+warm,100,59,199,confusional state,125
+warm,100,60,564,malaise,124
+warm,100,61,620,nasopharyngitis,121
+warm,100,62,476,ill-defined disorder,121
+warm,100,63,551,loss of consciousness,119
+warm,100,64,883,syncope,119
+warm,100,65,21,agitation,115
+warm,100,66,146,bronchitis,113
+warm,100,67,975,vision blurred,113
+warm,100,68,733,pneumonia,109
+warm,100,69,984,weight decreased,109
+warm,100,70,491,influenza,108
+warm,100,71,869,stomatitis,106
+warm,100,72,303,epistaxis,105
+warm,100,73,132,bradycardia,104
+warm,100,74,631,nervousness,104
+warm,100,75,204,conjunctivitis,104
+warm,100,76,345,flushing,103
+warm,100,77,895,tension,103
+warm,100,78,361,gastrointestinal disorder,101
+warm,100,79,386,haematuria,100
+warm,100,80,638,neutropenia,99
+warm,100,81,452,hypoaesthesia,99
+warm,100,82,684,pain in extremity,98
+warm,100,83,985,weight increased,96
+warm,100,84,431,hyperglycaemia,96
+warm,100,85,306,erythema,93
+warm,100,86,25,alanine aminotransferase increased,93
+warm,100,87,912,tinnitus,90
+warm,100,88,736,pollakiuria,87
+warm,100,89,460,hypokalaemia,87
+warm,100,90,392,haemorrhage,85
+warm,100,91,673,orthostatic hypotension,85
+warm,100,92,259,dry skin,85
+warm,100,93,977,visual impairment,83
+warm,100,94,635,neuropathy peripheral,83
+warm,100,95,79,aspartate aminotransferase increased,82
+warm,100,96,304,erectile dysfunction,82
+warm,100,97,387,haemoglobin,82
+warm,100,98,227,dehydration,81
+warm,100,99,275,dysuria,81
+warm,100,100,1,abdominal distension,81
+cold,10,1,621,nausea,500
+cold,10,2,401,headache,469
+cold,10,3,252,dizziness,442
+cold,10,4,243,diarrhoea,417
+cold,10,5,978,vomiting,403
+cold,10,6,80,asthenia,392
+cold,10,7,236,dermatitis,367
+cold,10,8,778,rash,361
+cold,10,9,2,abdominal pain,311
+cold,10,10,364,gastrointestinal pain,307
+cold,20,1,621,nausea,500
+cold,20,2,401,headache,469
+cold,20,3,252,dizziness,442
+cold,20,4,243,diarrhoea,417
+cold,20,5,978,vomiting,403
+cold,20,6,80,asthenia,392
+cold,20,7,236,dermatitis,367
+cold,20,8,778,rash,361
+cold,20,9,2,abdominal pain,311
+cold,20,10,364,gastrointestinal pain,307
+cold,20,11,332,fatigue,301
+cold,20,12,758,pruritus,301
+cold,20,13,207,constipation,279
+cold,20,14,604,musculoskeletal discomfort,273
+cold,20,15,269,dyspepsia,265
+cold,20,16,129,body temperature increased,259
+cold,20,17,215,cough,248
+cold,20,18,505,insomnia,243
+cold,20,19,683,pain,239
+cold,20,20,273,dyspnoea,235
+cold,50,1,621,nausea,500
+cold,50,2,401,headache,469
+cold,50,3,252,dizziness,442
+cold,50,4,243,diarrhoea,417
+cold,50,5,978,vomiting,403
+cold,50,6,80,asthenia,392
+cold,50,7,236,dermatitis,367
+cold,50,8,778,rash,361
+cold,50,9,2,abdominal pain,311
+cold,50,10,364,gastrointestinal pain,307
+cold,50,11,332,fatigue,301
+cold,50,12,758,pruritus,301
+cold,50,13,207,constipation,279
+cold,50,14,604,musculoskeletal discomfort,273
+cold,50,15,269,dyspepsia,265
+cold,50,16,129,body temperature increased,259
+cold,50,17,215,cough,248
+cold,50,18,505,insomnia,243
+cold,50,19,683,pain,239
+cold,50,20,273,dyspnoea,235
+cold,50,21,225,decreased appetite,228
+cold,50,22,92,back pain,216
+cold,50,23,74,arthralgia,215
+cold,50,24,607,myalgia,200
+cold,50,25,861,somnolence,198
+cold,50,26,334,feeling abnormal,195
+cold,50,27,468,hypotension,194
+cold,50,28,445,hypertension,193
+cold,50,29,696,paraesthesia,190
+cold,50,30,35,anaemia,185
+cold,50,31,180,chest pain,182
+cold,50,32,258,dry mouth,173
+cold,50,33,655,oedema,171
+cold,50,34,432,hyperhidrosis,166
+cold,50,35,53,anxiety,160
+cold,50,36,904,thrombocytopenia,159
+cold,50,37,342,flatulence,156
+cold,50,38,950,urticaria,153
+cold,50,39,970,vertigo,151
+cold,50,40,599,muscle spasms,150
+cold,50,41,488,infection,149
+cold,50,42,656,oedema peripheral,148
+cold,50,43,720,pharyngitis,147
+cold,50,44,885,tachycardia,146
+cold,50,45,443,hypersensitivity,146
+cold,50,46,265,dysgeusia,146
+cold,50,47,246,discomfort,145
+cold,50,48,838,sinusitis,145
+cold,50,49,946,urinary tract infection,145
+cold,50,50,930,tremor,143
+cold,100,1,621,nausea,500
+cold,100,2,401,headache,469
+cold,100,3,252,dizziness,442
+cold,100,4,243,diarrhoea,417
+cold,100,5,978,vomiting,403
+cold,100,6,80,asthenia,392
+cold,100,7,236,dermatitis,367
+cold,100,8,778,rash,361
+cold,100,9,2,abdominal pain,311
+cold,100,10,364,gastrointestinal pain,307
+cold,100,11,332,fatigue,301
+cold,100,12,758,pruritus,301
+cold,100,13,207,constipation,279
+cold,100,14,604,musculoskeletal discomfort,273
+cold,100,15,269,dyspepsia,265
+cold,100,16,129,body temperature increased,259
+cold,100,17,215,cough,248
+cold,100,18,505,insomnia,243
+cold,100,19,683,pain,239
+cold,100,20,273,dyspnoea,235
+cold,100,21,225,decreased appetite,228
+cold,100,22,92,back pain,216
+cold,100,23,74,arthralgia,215
+cold,100,24,607,myalgia,200
+cold,100,25,861,somnolence,198
+cold,100,26,334,feeling abnormal,195
+cold,100,27,468,hypotension,194
+cold,100,28,445,hypertension,193
+cold,100,29,696,paraesthesia,190
+cold,100,30,35,anaemia,185
+cold,100,31,180,chest pain,182
+cold,100,32,258,dry mouth,173
+cold,100,33,655,oedema,171
+cold,100,34,432,hyperhidrosis,166
+cold,100,35,53,anxiety,160
+cold,100,36,904,thrombocytopenia,159
+cold,100,37,342,flatulence,156
+cold,100,38,950,urticaria,153
+cold,100,39,970,vertigo,151
+cold,100,40,599,muscle spasms,150
+cold,100,41,488,infection,149
+cold,100,42,656,oedema peripheral,148
+cold,100,43,720,pharyngitis,147
+cold,100,44,885,tachycardia,146
+cold,100,45,443,hypersensitivity,146
+cold,100,46,265,dysgeusia,146
+cold,100,47,246,discomfort,145
+cold,100,48,838,sinusitis,145
+cold,100,49,946,urinary tract infection,145
+cold,100,50,930,tremor,143
+cold,100,51,937,upper respiratory tract infection,142
+cold,100,52,808,rhinitis,136
+cold,100,53,234,depression,135
+cold,100,54,539,leukopenia,134
+cold,100,55,181,chills,133
+cold,100,56,832,shock,132
+cold,100,57,688,palpitations,132
+cold,100,58,199,confusional state,131
+cold,100,59,28,alopecia,130
+cold,100,60,564,malaise,128
+cold,100,61,620,nasopharyngitis,128
+cold,100,62,476,ill-defined disorder,126
+cold,100,63,551,loss of consciousness,119
+cold,100,64,491,influenza,119
+cold,100,65,883,syncope,118
+cold,100,66,21,agitation,115
+cold,100,67,146,bronchitis,114
+cold,100,68,733,pneumonia,114
+cold,100,69,631,nervousness,112
+cold,100,70,975,vision blurred,108
+cold,100,71,895,tension,108
+cold,100,72,984,weight decreased,108
+cold,100,73,303,epistaxis,107
+cold,100,74,452,hypoaesthesia,103
+cold,100,75,132,bradycardia,102
+cold,100,76,204,conjunctivitis,102
+cold,100,77,684,pain in extremity,102
+cold,100,78,869,stomatitis,102
+cold,100,79,345,flushing,101
+cold,100,80,431,hyperglycaemia,101
+cold,100,81,386,haematuria,100
+cold,100,82,638,neutropenia,99
+cold,100,83,361,gastrointestinal disorder,98
+cold,100,84,912,tinnitus,98
+cold,100,85,25,alanine aminotransferase increased,96
+cold,100,86,985,weight increased,93
+cold,100,87,460,hypokalaemia,91
+cold,100,88,306,erythema,91
+cold,100,89,635,neuropathy peripheral,90
+cold,100,90,736,pollakiuria,88
+cold,100,91,259,dry skin,87
+cold,100,92,79,aspartate aminotransferase increased,86
+cold,100,93,227,dehydration,85
+cold,100,94,304,erectile dysfunction,85
+cold,100,95,1,abdominal distension,84
+cold,100,96,977,visual impairment,83
+cold,100,97,275,dysuria,81
+cold,100,98,399,hallucination,81
+cold,100,99,4,abdominal pain upper,81
+cold,100,100,392,haemorrhage,81

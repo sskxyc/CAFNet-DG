@@ -1,0 +1,4 @@
+model,auroc_mean,aupr_mean,hit_rate@10_mean,hit_rate@15_mean,enrichment@15_mean,hit_rate@20_mean,enrichment@20_mean
+CAFNet,0.671,0.465,0.591,0.556,2.409,0.522,2.217
+A3Net,0.657,0.444,0.581,0.556,2.305,0.498,2.065
+SIDER-popularity,0.711,0.545,0.709,0.644,2.785,0.564,2.399

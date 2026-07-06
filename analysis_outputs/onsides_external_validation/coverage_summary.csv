@@ -1,0 +1,2 @@
+n_mapped_drugs,n_side_effects_total,n_mapped_side_effect_columns,n_valid_pairs,n_onsides_positive_pairs,positive_rate_valid_pairs,saved_prediction_source
+32,994,137,4384,1102,0.25136861313868614,D:\CAFNet-master-master\plots\independent_test

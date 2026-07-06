@@ -1,0 +1,18 @@
+*.mat filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.model filter=lfs diff=lfs merge=lfs -text
+
+# Large result tables are tracked through Git LFS only when intentionally added.
+analysis_outputs/cafnet_dg_external_validation/offsides_matched_control_scored_pairs.csv filter=lfs diff=lfs merge=lfs -text
+analysis_outputs/cafnet_dg_external_validation/offsides_matched_control_scored_pairs_with_prevalence_meta.csv filter=lfs diff=lfs merge=lfs -text
+data_external/external_pairs/offsides_contrastive_pairs_all_folds.csv filter=lfs diff=lfs merge=lfs -text
+
+# Core benchmark files.
+raw_frequency_750.mat filter=lfs diff=lfs merge=lfs -text
+side_effect_label_750.mat filter=lfs diff=lfs merge=lfs -text
+blind_mask_mat_750.mat filter=lfs diff=lfs merge=lfs -text
+frequency_data.txt filter=lfs diff=lfs merge=lfs -text
+mask_mat_750.mat filter=lfs diff=lfs merge=lfs -text

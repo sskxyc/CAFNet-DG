@@ -1,0 +1,24 @@
+name: cafnet-dg
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - numpy==1.22.4
+      - pandas==1.5.1
+      - scipy==1.10.1
+      - scikit-learn==1.2.1
+      - networkx==2.8.8
+      - matplotlib==3.6.0
+      - rdkit==2022.9.4
+      - torch==1.12.1+cu113
+      - torchvision==0.13.1+cu113
+      - torchaudio==0.12.1+cu113
+      - torch-geometric==1.7.2
+      - torch-cluster==1.6.0+pt112cu113
+      - torch-scatter==2.0.9
+      - torch-sparse==0.6.15+pt112cu113
+      - tqdm==4.67.2
+      - requests==2.32.3

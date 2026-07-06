@@ -1,0 +1,2 @@
+n_mapped_drugs,n_mapped_side_effect_columns,n_valid_pairs,n_onsides_positive_pairs,controls_per_positive,known_sider_positive_exclusion
+32,137,4384,1102,5,not available: saved OnSIDES matrices do not retain original CAFNet drug indices

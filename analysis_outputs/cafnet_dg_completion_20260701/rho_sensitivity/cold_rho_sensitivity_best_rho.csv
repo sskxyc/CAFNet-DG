@@ -1,0 +1,9 @@
+metric,best_rho,best_value
+overall_AP_mean,0.7,0.4144006889422943
+global_AUROC_mean,0.5,0.8264824149327936
+global_AUPR_mean,0.7,0.30827949332910143
+overall_nDCG@10_mean,0.7,0.6274730263188345
+nonhot100_AP_mean,0.8,0.12366429343555455
+rare_AP_mean,0.3,0.08362872871126263
+middle_AP_mean,0.6,0.11327517797807125
+top15_hot_fraction_mean,0.9,0.9970666666666667

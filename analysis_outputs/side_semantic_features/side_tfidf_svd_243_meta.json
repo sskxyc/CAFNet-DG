@@ -1,0 +1,12 @@
+{
+  "n_terms": 994,
+  "word_vocab": 1882,
+  "char_vocab": 10502,
+  "tfidf_shape": [
+    994,
+    12384
+  ],
+  "n_components": 243,
+  "explained_variance_ratio_sum": 0.5091116542499455,
+  "output": "D:\\CAFNet-master-master\\analysis_outputs\\side_semantic_features\\side_tfidf_svd_243.npy"
+}

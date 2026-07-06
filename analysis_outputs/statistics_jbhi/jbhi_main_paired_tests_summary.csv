@@ -1,0 +1,13 @@
+scenario,baseline,metrics_total,sig_wins_cafnet,sig_losses_cafnet,rank_wins,reg_wins
+cold,A3Net,11,0,0,0,0
+cold,DSGAT,11,2,7,0,2
+cold,RF,11,6,2,6,0
+cold,XGBoost,11,8,1,8,0
+cold,Global popularity,11,2,9,0,2
+cold,HSTrans,11,4,2,4,0
+warm,A3Net,11,0,0,0,0
+warm,DSGAT,11,5,0,4,1
+warm,RF,11,9,2,8,1
+warm,XGBoost,11,9,2,8,1
+warm,Global popularity,11,5,3,3,2
+warm,HSTrans,0,0,0,0,0

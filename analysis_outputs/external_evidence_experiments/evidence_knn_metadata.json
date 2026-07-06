@@ -1,0 +1,8 @@
+{
+  "n_test_rows": 750,
+  "n_side_effects": 994,
+  "features": {
+    "ATC": "D:\\CAFNet-master-master\\data_external\\chembl_atc_features.npy",
+    "ATC+target": "D:\\CAFNet-master-master\\data_external\\chembl_atc_target_features.npy"
+  }
+}

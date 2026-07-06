@@ -1,0 +1,58 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local IDE/runtime
+.idea/
+.vscode/
+.conda_envs/
+.local_pkgs/
+.tmp_yang_images/
+texput.log
+
+# Large trained checkpoints and temporary models
+*.pt
+*.pth
+*.model
+model_cold.pt
+new.pth
+save_model/
+
+# Large or obsolete local experiment folders not intended for the public Git repo
+result_WS/
+new_data/
+code_snapshots/
+submission_flat/
+manuscript/
+*_submission_package.zip
+*.synctex.gz
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+external_baselines/
+baselines/*/save_model/
+baselines/*/processed/
+
+# Keep curated result folders by explicitly adding them if needed.
+# Full matched-pair external validation tables are release/LFS artifacts.
+analysis_outputs/**/__pycache__/
+analysis_outputs/**/*.md
+analysis_outputs/**/*.tex
+analysis_outputs/**/*.aux
+analysis_outputs/**/*.log
+analysis_outputs/**/*.pdf
+analysis_outputs/**/*.txt
+analysis_outputs/cafnet_dg_external_validation/offsides_matched_control_scored_pairs.csv
+analysis_outputs/cafnet_dg_external_validation/offsides_matched_control_scored_pairs_with_prevalence_meta.csv
+analysis_outputs/reviewer_attribution_20260629/popularity_matched_negative_pairs.csv
+analysis_outputs/external_contrastive_experiments/offsides_external_sanity_scored_pairs.csv
+
+# OS artifacts
+Thumbs.db
+.DS_Store

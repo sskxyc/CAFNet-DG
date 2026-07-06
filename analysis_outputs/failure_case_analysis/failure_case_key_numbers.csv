@@ -1,0 +1,8 @@
+,value
+n_positive_pairs,37071.0
+n_drugs,750.0
+n_side_effects,994.0
+cafnet_hit15,0.12219794448490734
+a3net_hit15,0.12551590191794124
+cafnet_hot100_unobserved_top15_fraction,0.8192
+a3net_hot100_unobserved_top15_fraction,0.8376888888888889
