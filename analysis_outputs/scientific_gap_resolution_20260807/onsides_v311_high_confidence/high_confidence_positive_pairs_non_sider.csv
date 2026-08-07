@@ -1,0 +1,92 @@
+ingredient_id,effect_meddra_id,rxnorm_id,rxnorm_name,drug_index,meddra_id,meddra_name,side_index,drug_name_benchmark,side_effect_benchmark,mapping_rule,known_in_sider_matrix
+140587,10037844,140587,celecoxib,95,10037844,Rash,778,celecoxib,rash,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6375,10037844,6375,levodopa,527,10037844,Rash,778,levodopa,rash,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+114477,10037844,114477,levetiracetam,462,10037844,Rash,778,levetiracetam,rash,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10037844,17767,amlodipine,45,10037844,Rash,778,amlodipine,rash,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10028813,5487,hydrochlorothiazide,195,10028813,Nausea,621,hydrochlorothiazide,nausea,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+25255,10028813,25255,formoterol,175,10028813,Nausea,621,formoterol,nausea,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10003239,5487,hydrochlorothiazide,195,10003239,Arthralgia,74,hydrochlorothiazide,arthralgia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10003239,17767,amlodipine,45,10003239,Arthralgia,74,amlodipine,arthralgia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10033645,5487,hydrochlorothiazide,195,10033645,Pancreatitis,689,hydrochlorothiazide,pancreatitis,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10001507,5487,hydrochlorothiazide,195,10001507,Agranulocytosis,22,hydrochlorothiazide,agranulocytosis,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10015218,5487,hydrochlorothiazide,195,10015218,Erythema multiforme,307,hydrochlorothiazide,erythema multiforme,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10020751,5487,hydrochlorothiazide,195,10020751,Hypersensitivity,443,hydrochlorothiazide,hypersensitivity,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+114477,10020751,114477,levetiracetam,462,10020751,Hypersensitivity,443,levetiracetam,hypersensitivity,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+25255,10020751,25255,formoterol,175,10020751,Hypersensitivity,443,formoterol,hypersensitivity,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10020751,17767,amlodipine,45,10020751,Hypersensitivity,443,amlodipine,hypersensitivity,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+41126,10020751,41126,fluticasone,490,10020751,Hypersensitivity,443,fluticasone,hypersensitivity,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+19831,10020751,19831,budesonide,73,10020751,Hypersensitivity,443,budesonide,hypersensitivity,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6809,10020751,6809,metformin,244,10020751,Hypersensitivity,443,metformin,hypersensitivity,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+33738,10020751,33738,pioglitazone,310,10020751,Hypersensitivity,443,pioglitazone,hypersensitivity,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+519,10020751,519,allopurinol,37,10020751,Hypersensitivity,443,allopurinol,hypersensitivity,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+10379,10020751,10379,testosterone,361,10020751,Hypersensitivity,443,testosterone,hypersensitivity,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10015150,5487,hydrochlorothiazide,195,10015150,Erythema,306,hydrochlorothiazide,erythema,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10011224,17767,amlodipine,45,10011224,Cough,215,amlodipine,cough,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10012601,5487,hydrochlorothiazide,195,10012601,Diabetes mellitus,242,hydrochlorothiazide,diabetes mellitus,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10047115,5487,hydrochlorothiazide,195,10047115,Vasculitis,962,hydrochlorothiazide,vasculitis,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10047115,17767,amlodipine,45,10047115,Vasculitis,962,amlodipine,vasculitis,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10043071,5487,hydrochlorothiazide,195,10043071,Tachycardia,885,hydrochlorothiazide,tachycardia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10010774,5487,hydrochlorothiazide,195,10010774,Constipation,207,hydrochlorothiazide,constipation,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10042772,5487,hydrochlorothiazide,195,10042772,Syncope,883,hydrochlorothiazide,syncope,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6375,10042772,6375,levodopa,527,10042772,Syncope,883,levodopa,syncope,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+89013,10042772,89013,aripiprazole,475,10042772,Syncope,883,aripiprazole,syncope,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10042772,17767,amlodipine,45,10042772,Syncope,883,amlodipine,syncope,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10002424,5487,hydrochlorothiazide,195,10002424,Angioedema,44,hydrochlorothiazide,angioedema,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10002424,17767,amlodipine,45,10002424,Angioedema,44,amlodipine,angioedema,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10061461,5487,hydrochlorothiazide,195,10061461,Erectile dysfunction,304,hydrochlorothiazide,erectile dysfunction,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10003988,17767,amlodipine,45,10003988,Back pain,92,amlodipine,back pain,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10008479,5487,hydrochlorothiazide,195,10008479,Chest pain,180,hydrochlorothiazide,chest pain,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10019211,5487,hydrochlorothiazide,195,10019211,Headache,401,hydrochlorothiazide,headache,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+134748,10019211,134748,rasagiline,542,10019211,Headache,401,rasagiline,headache,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10019211,17767,amlodipine,45,10019211,Headache,401,amlodipine,headache,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+75207,10019211,75207,bosentan,529,10019211,Headache,401,bosentan,headache,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6851,10019211,6851,methotrexate,245,10019211,Headache,401,methotrexate,headache,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10047700,5487,hydrochlorothiazide,195,10047700,Vomiting,978,hydrochlorothiazide,vomiting,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10021097,5487,hydrochlorothiazide,195,10021097,Hypotension,468,hydrochlorothiazide,hypotension,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10021097,17767,amlodipine,45,10021097,Hypotension,468,amlodipine,hypotension,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10018473,5487,hydrochlorothiazide,195,10018473,Glycosuria,377,hydrochlorothiazide,glycosuria,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10028411,5487,hydrochlorothiazide,195,10028411,Myalgia,607,hydrochlorothiazide,myalgia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10028411,17767,amlodipine,45,10028411,Myalgia,607,amlodipine,myalgia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6809,10028411,6809,metformin,244,10028411,Myalgia,607,metformin,myalgia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10043882,5487,hydrochlorothiazide,195,10043882,Tinnitus,912,hydrochlorothiazide,tinnitus,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+306674,10043882,306674,vardenafil,531,10043882,Tinnitus,912,vardenafil,tinnitus,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10046735,5487,hydrochlorothiazide,195,10046735,Urticaria,950,hydrochlorothiazide,urticaria,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+5487,10023126,5487,hydrochlorothiazide,195,10023126,Jaundice,519,hydrochlorothiazide,jaundice,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+73494,10023126,73494,telmisartan,498,10023126,Jaundice,519,telmisartan,jaundice,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+8787,10006093,8787,propranolol,319,10006093,Bradycardia,132,propranolol,bradycardia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6375,10003549,6375,levodopa,527,10003549,Asthenia,80,levodopa,asthenia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+89013,10012378,89013,aripiprazole,475,10012378,Depression,234,aripiprazole,depression,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6375,10001760,6375,levodopa,527,10001760,Alopecia,28,levodopa,alopecia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+114477,10001760,114477,levetiracetam,462,10001760,Alopecia,28,levetiracetam,alopecia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10013946,17767,amlodipine,45,10013946,Dyspepsia,269,amlodipine,dyspepsia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+194000,10021789,194000,capecitabine,487,10021789,Infection,488,capecitabine,infection,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10021789,17767,amlodipine,45,10021789,Infection,488,amlodipine,infection,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+41126,10021789,41126,fluticasone,490,10021789,Infection,488,fluticasone,infection,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+19831,10021789,19831,budesonide,73,10021789,Infection,488,budesonide,infection,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+1251,10021789,1251,azacitidine,27,10021789,Infection,488,azacitidine,infection,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6375,10016256,6375,levodopa,527,10016256,Fatigue,332,levodopa,fatigue,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10013573,17767,amlodipine,45,10013573,Dizziness,252,amlodipine,dizziness,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+1100072,10061024,1100072,abiraterone,558,10061024,Cardiac disorder,156,abiraterone,cardiac disorder,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+134748,10020772,134748,rasagiline,542,10020772,Hypertension,445,rasagiline,hypertension,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6375,10041349,6375,levodopa,527,10041349,Somnolence,861,levodopa,somnolence,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6375,10001497,6375,levodopa,527,10001497,Agitation,21,levodopa,agitation,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6375,10002855,6375,levodopa,527,10002855,Anxiety,53,levodopa,anxiety,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+68244,10002855,68244,lamivudine,220,10002855,Anxiety,53,lamivudine,anxiety,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6375,10009887,6375,levodopa,527,10009887,Colitis,193,levodopa,colitis,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+89013,10026749,89013,aripiprazole,475,10026749,Mania,567,aripiprazole,mania,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+89013,10013950,89013,aripiprazole,475,10013950,Dysphagia,270,aripiprazole,dysphagia,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+134748,10040108,134748,rasagiline,542,10040108,Serotonin syndrome,829,rasagiline,serotonin syndrome,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10019717,17767,amlodipine,45,10019717,Hepatitis,409,amlodipine,hepatitis,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+68244,10019717,68244,lamivudine,220,10019717,Hepatitis,409,lamivudine,hepatitis,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+17767,10033557,17767,amlodipine,45,10033557,Palpitations,688,amlodipine,palpitations,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+300195,10062237,300195,tenofovir disoproxil,538,10062237,Renal impairment,789,tenofovir disoproxil,renal impairment,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+276237,10062237,276237,emtricitabine,485,10062237,Renal impairment,789,emtricitabine,renal impairment,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+276237,10023676,276237,emtricitabine,485,10023676,Lactic acidosis,531,emtricitabine,lactic acidosis,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+6809,10023676,6809,metformin,244,10023676,Lactic acidosis,531,metformin,lactic acidosis,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+73494,10022000,73494,telmisartan,498,10022000,Influenza,491,telmisartan,influenza,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+19831,10018304,19831,budesonide,73,10018304,Glaucoma,373,budesonide,glaucoma,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+8787,10006482,8787,propranolol,319,10006482,Bronchospasm,147,propranolol,bronchospasm,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+19831,10007739,19831,budesonide,73,10007739,Cataract,167,budesonide,cataract,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+337525,10019663,337525,erlotinib,585,10019663,Hepatic failure,405,erlotinib,hepatic failure,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+68244,10007636,68244,lamivudine,220,10007636,Cardiomyopathy,164,lamivudine,cardiomyopathy,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False
+22299,10039020,22299,daptomycin,700,10039020,Rhabdomyolysis,806,daptomycin,rhabdomyolysis,exact normalized RxNorm ingredient and exact normalized MedDRA PT,False

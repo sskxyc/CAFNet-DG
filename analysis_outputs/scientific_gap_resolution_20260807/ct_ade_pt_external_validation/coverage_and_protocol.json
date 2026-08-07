@@ -1,0 +1,25 @@
+{
+  "source": "CT-ADE-PT public test split from ClinicalTrials.gov monopharmacy results",
+  "source_url": "https://huggingface.co/datasets/anthonyyazdaniml/CT-ADE-PT",
+  "source_sha256": "d26501c6daf1567b9a7f468079b335d014ab8489341d7f92c0311beb4c7a8af5",
+  "ct_test_rows": 1395,
+  "mapped_trial_groups": 254,
+  "mapped_drugs": 31,
+  "exact_side_terms": 982,
+  "non_sider_pairs": 28874,
+  "non_sider_positives": 1336,
+  "positive_drugs": 29,
+  "positive_prevalence_strata": {
+    "rare": 174,
+    "middle": 270,
+    "frequent": 892
+  },
+  "matched_rows": 8011,
+  "matched_positive_sets": 1336,
+  "matched_median_abs_prevalence_difference": 0.004148148148148151,
+  "label_definition": "CT-ADE label 1: 95% confidence that at least 1% of the trial group experiences the ADE",
+  "aggregation": "logical OR over mapped trial groups for each drug",
+  "exclusion": "all drug-side-effect pairs observed in the SIDER-derived training matrix",
+  "prediction": "frozen cold-start out-of-fold model score; CT-ADE never used for training or selection",
+  "claim_boundary": "independent controlled-trial ADR prioritization, not ordinal-frequency calibration, incidence estimation, or causal proof"
+}

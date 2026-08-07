@@ -2,7 +2,9 @@
 
 This repository contains code, benchmark data, and curated result artifacts for CAFNet-DG, a frequency-aware and prevalence-aware framework for drug side-effect prioritization.
 
-CAFNet-DG combines a task-decoupled CAFNet-D branch with the original CAFNet score as a residual ranking signal. The released materials support reproduction of the same-mask warm-start and drug-disjoint cold-start analyses, popularity-controlled diagnostics, and OFFSIDES matched-control external validation reported in the manuscript.
+CAFNet-DG combines a task-decoupled CAFNet-D branch with the original CAFNet structural score as a fixed residual ranking signal. The released materials support same-mask warm-start and drug-disjoint analyses, a formal scaffold-disjoint evaluation, ordinal-frequency diagnostics, popularity controls, and independent validation against CT-ADE, OnSIDES, FDA safety-signal, and OFFSIDES evidence.
+
+The repository contains code, processed benchmark data, fixed splits, and derived result artifacts only. Manuscript source files, submission PDFs, cover letters, and author correspondence are intentionally excluded.
 
 ## Repository Contents
 
@@ -12,12 +14,12 @@ utils.py                       Training and evaluation utilities.
 vector.py                      SMILES-to-graph preprocessing helpers.
 cold-scence.py                 Cold-start training/evaluation entry point.
 warm-scence.py                 Warm-start training/evaluation entry point.
-analysis_scripts/              Additional analysis scripts.
-analysis_outputs/              Curated tables, reports, and analysis scripts.
+analysis_scripts/              Reproducible evaluation and audit scripts.
+analysis_outputs/              Curated tables, reports, and protocol metadata.
+experiments/                   Frozen experimental variants and launch settings.
 data/                          Benchmark matrices and fixed train/test masks.
-data_external/                 External evidence mappings used in supplementary analyses.
 result_ICS/                    Saved cold-start prediction matrices.
-result_baselines_*/            Saved baseline predictions used in the manuscript.
+result_baselines_*/            Saved baseline predictions used in the reported comparisons.
 docs/github_release/           Upload manifest and result-data release notes.
 ```
 
@@ -45,18 +47,14 @@ data/blind_mask_mat_750.mat
 data/scaffold_mask_mat_750.mat
 ```
 
-`mask_mat_750.mat` defines warm-start folds. `blind_mask_mat_750.mat` defines drug-disjoint cold-start folds. `scaffold_mask_mat_750.mat` is used for scaffold-split feasibility analyses.
+`mask_mat_750.mat` defines warm-start folds. `blind_mask_mat_750.mat` defines drug-disjoint cold-start folds. `scaffold_mask_mat_750.mat` defines the frozen 10-fold Bemis--Murcko group split used for formal scaffold-disjoint evaluation.
 
-## Reproducing Manuscript Tables from Saved Results
+## Reproducing Reported Tables from Saved Results
 
-The fastest path is to use the saved prediction matrices and curated analysis outputs:
+The fastest path is to use the saved prediction matrices and the curated current analysis package:
 
 ```text
-analysis_outputs/statistics_jbhi/
-analysis_outputs/hot_side_effect_bias_cafnet_dg/
-analysis_outputs/cafnet_dg_per_drug/
-analysis_outputs/cafnet_dg_external_validation/
-analysis_outputs/cafnet_dg_completion_20260701/
+analysis_outputs/scientific_gap_resolution_20260807/
 ```
 
 The main CAFNet-DG cold-start prediction matrix is:
@@ -65,7 +63,7 @@ The main CAFNet-DG cold-start prediction matrix is:
 result_ICS/10cafnet_dg_ensemble06_cafnetd04_cafnet/blind_pred.csv
 ```
 
-Important baseline result folders include:
+Important baseline result folders used in the reported analyses include:
 
 ```text
 result_baselines_a3net_rdkit_cold_v1/cold/RF/
@@ -90,15 +88,30 @@ python warm-scence.py --tenfold --epoch 100 --lr 0.0004
 
 Exact result-folder names encode the hyperparameters used for the reported runs.
 
-## External Validation
+## Independent and External Validation
 
-OFFSIDES matched-control external validation outputs are in:
+The scientific-gap resolution package contains:
 
 ```text
-analysis_outputs/cafnet_dg_external_validation/
+analysis_outputs/scientific_gap_resolution_20260807/ct_ade_pt_external_validation/
+analysis_outputs/scientific_gap_resolution_20260807/ct_ade_frequency_validation/
+analysis_outputs/scientific_gap_resolution_20260807/onsides_v311_high_confidence/
+analysis_outputs/scientific_gap_resolution_20260807/fda_aems_signal_validation/
+analysis_outputs/scientific_gap_resolution_20260807/scaffold_cafnet_dg/
+analysis_outputs/scientific_gap_resolution_20260807/ordinal_diagnostics/
+analysis_outputs/scientific_gap_resolution_20260807/determinism_audit/
+analysis_outputs/scientific_gap_resolution_20260807/rare_e2e_screen/
 ```
 
-This validation is an external ADR prioritization/ranking analysis. It is not an external frequency-regression validation and should not be interpreted as clinical causal validation. Matched controls are prevalence-matched unobserved pairs rather than confirmed negative adverse reactions.
+These resources support controlled ADR prioritization analyses. They do not establish patient-specific incidence or causal drug--event effects. CT-ADE external ordinal-frequency calibration is reported as a negative result, and the OnSIDES/FDA positive sets are too small to support a claim of uniform model superiority.
+
+The predeclared 10-fold rare-aware/trainable-fusion screen is also retained as a negative result. Group-balanced ranking and global, drug-conditioned, and drug-by-prevalence-stratum gates did not pass the frozen rare-ADR and aggregate-ranking promotion criteria. The reported CAFNet-DG therefore remains the fixed `0.6 * CAFNet-D + 0.4 * CAFNet` residual score fusion.
+
+Raw external source archives are not redistributed. Source URLs, checksums, exact mapping audits, derived non-identifying pairs, and summary statistics are provided where licensing and size permit.
+
+## Reproducibility Boundary
+
+The release fixes data splits, seeds, scripts, and environment versions. The legacy CUDA `torch_scatter` kernel used by the GAT stack is not bitwise deterministic. The determinism audit includes three same-seed repeats and reports numerical variation; reproducibility claims are statistical rather than bitwise.
 
 ## Large Files and Git LFS
 
@@ -113,4 +126,4 @@ Do not upload local environment caches, old manuscript snapshots, or intermediat
 
 ## Citation
 
-Please cite the associated manuscript when using this code, data, or result package.
+Citation metadata will be added after publication.

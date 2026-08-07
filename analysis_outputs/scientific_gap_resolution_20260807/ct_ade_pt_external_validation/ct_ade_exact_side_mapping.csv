@@ -1,0 +1,983 @@
+side_index,current_side_effect,ct_ade_column
+0,abdominal discomfort,label_Abdominal discomfort
+1,abdominal distension,label_Abdominal distension
+2,abdominal pain,label_Abdominal pain
+3,abdominal pain lower,label_Abdominal pain lower
+4,abdominal pain upper,label_Abdominal pain upper
+5,abnormal behaviour,label_Abnormal behaviour
+6,abnormal dreams,label_Abnormal dreams
+7,abnormal faeces,label_Abnormal faeces
+8,abscess,label_Abscess
+9,accommodation disorder,label_Accommodation disorder
+10,acidosis,label_Acidosis
+11,acne,label_Acne
+12,actinic keratosis,label_Actinic keratosis
+13,acute coronary syndrome,label_Acute coronary syndrome
+14,acute myocardial infarction,label_Acute myocardial infarction
+15,acute respiratory distress syndrome,label_Acute respiratory distress syndrome
+16,adrenal insufficiency,label_Adrenal insufficiency
+17,affect lability,label_Affect lability
+18,affective disorder,label_Affective disorder
+19,ageusia,label_Ageusia
+20,aggression,label_Aggression
+21,agitation,label_Agitation
+22,agranulocytosis,label_Agranulocytosis
+23,akathisia,label_Akathisia
+24,akinesia,label_Akinesia
+25,alanine aminotransferase increased,label_Alanine aminotransferase increased
+26,albuminuria,label_Albuminuria
+27,alcohol intolerance,label_Alcohol intolerance
+28,alopecia,label_Alopecia
+29,altered state of consciousness,label_Altered state of consciousness
+31,amblyopia,label_Amblyopia
+32,amenorrhoea,label_Amenorrhoea
+33,amnesia,label_Amnesia
+34,amylase increased,label_Amylase increased
+35,anaemia,label_Anaemia
+36,anaemia macrocytic,label_Anaemia macrocytic
+37,anaemia megaloblastic,label_Anaemia megaloblastic
+38,anal pruritus,label_Anal pruritus
+39,anaphylactic shock,label_Anaphylactic shock
+40,anaphylactoid reaction,label_Anaphylactoid reaction
+41,aneurysm,label_Aneurysm
+42,anger,label_Anger
+43,angina pectoris,label_Angina pectoris
+44,angioedema,label_Angioedema
+45,angiopathy,label_Angiopathy
+46,angle closure glaucoma,label_Angle closure glaucoma
+47,anorectal discomfort,label_Anorectal discomfort
+48,anorectal disorder,label_Anorectal disorder
+49,anorgasmia,label_Anorgasmia
+50,antisocial behaviour,label_Antisocial behaviour
+51,antisocial personality disorder,label_Antisocial personality disorder
+52,anuria,label_Anuria
+53,anxiety,label_Anxiety
+54,apathy,label_Apathy
+55,aphasia,label_Aphasia
+56,aplasia pure red cell,label_Aplasia pure red cell
+57,aplastic anaemia,label_Aplastic anaemia
+58,apnoea,label_Apnoea
+59,appendicitis,label_Appendicitis
+60,application site burn,label_Application site burn
+61,application site dryness,label_Application site dryness
+62,application site erythema,label_Application site erythema
+63,application site irritation,label_Application site irritation
+64,application site pain,label_Application site pain
+65,application site paraesthesia,label_Application site paraesthesia
+66,application site pruritus,label_Application site pruritus
+67,application site rash,label_Application site rash
+68,application site reaction,label_Application site reaction
+69,application site vesicles,label_Application site vesicles
+70,apraxia,label_Apraxia
+71,arrhythmia,label_Arrhythmia
+72,arrhythmia supraventricular,label_Arrhythmia supraventricular
+73,arteriosclerosis,label_Arteriosclerosis
+74,arthralgia,label_Arthralgia
+75,arthritis,label_Arthritis
+76,arthropathy,label_Arthropathy
+77,ascites,label_Ascites
+78,asocial behaviour,label_Asocial behaviour
+79,aspartate aminotransferase increased,label_Aspartate aminotransferase increased
+80,asthenia,label_Asthenia
+81,asthenopia,label_Asthenopia
+82,asthma,label_Asthma
+83,ataxia,label_Ataxia
+84,atelectasis,label_Atelectasis
+85,atrial fibrillation,label_Atrial fibrillation
+86,atrial flutter,label_Atrial flutter
+87,atrioventricular block,label_Atrioventricular block
+88,atrioventricular block complete,label_Atrioventricular block complete
+89,atrioventricular block first degree,label_Atrioventricular block first degree
+90,autonomic nervous system imbalance,label_Autonomic nervous system imbalance
+91,azotaemia,label_Azotaemia
+92,back pain,label_Back pain
+93,bacteraemia,label_Bacteraemia
+94,bacterial infection,label_Bacterial infection
+95,balance disorder,label_Balance disorder
+96,basal cell carcinoma,label_Basal cell carcinoma
+97,benign neoplasm of skin,label_Benign neoplasm of skin
+98,biliary colic,label_Biliary colic
+99,bipolar disorder,label_Bipolar disorder
+100,bipolar i disorder,label_Bipolar I disorder
+101,bladder cancer,label_Bladder cancer
+102,bladder pain,label_Bladder pain
+103,bleeding time prolonged,label_Bleeding time prolonged
+104,blepharitis,label_Blepharitis
+105,blepharospasm,label_Blepharospasm
+106,blindness,label_Blindness
+107,blister,label_Blister
+108,blood albumin decreased,label_Blood albumin decreased
+109,blood alkaline phosphatase increased,label_Blood alkaline phosphatase increased
+110,blood bilirubin increased,label_Blood bilirubin increased
+111,blood calcium decreased,label_Blood calcium decreased
+112,blood cholesterol increased,label_Blood cholesterol increased
+113,blood creatine phosphokinase increased,label_Blood creatine phosphokinase increased
+114,blood creatinine increased,label_Blood creatinine increased
+115,blood disorder,label_Blood disorder
+116,blood glucose decreased,label_Blood glucose decreased
+117,blood glucose increased,label_Blood glucose increased
+118,blood lactate dehydrogenase increased,label_Blood lactate dehydrogenase increased
+119,blood phosphorus decreased,label_Blood phosphorus decreased
+120,blood potassium decreased,label_Blood potassium decreased
+121,blood potassium increased,label_Blood potassium increased
+122,blood pressure increased,label_Blood pressure increased
+123,blood prolactin increased,label_Blood prolactin increased
+124,blood triglycerides increased,label_Blood triglycerides increased
+125,blood urea increased,label_Blood urea increased
+126,blood uric acid increased,label_Blood uric acid increased
+127,blood urine present,label_Blood urine present
+128,body temperature decreased,label_Body temperature decreased
+129,body temperature increased,label_Body temperature increased
+130,bone disorder,label_Bone disorder
+131,bone pain,label_Bone pain
+132,bradycardia,label_Bradycardia
+133,bradykinesia,label_Bradykinesia
+134,brain oedema,label_Brain oedema
+135,breast cancer,label_Breast cancer
+136,breast discharge,label_Breast discharge
+137,breast disorder,label_Breast disorder
+138,breast engorgement,label_Breast engorgement
+139,breast enlargement,label_Breast enlargement
+140,breast neoplasm,label_Breast neoplasm
+141,breast pain,label_Breast pain
+142,breast tenderness,label_Breast tenderness
+143,breath odour,label_Breath odour
+144,breath sounds abnormal,label_Breath sounds abnormal
+145,bronchial hyperreactivity,label_Bronchial hyperreactivity
+146,bronchitis,label_Bronchitis
+147,bronchospasm,label_Bronchospasm
+148,bronchospasm paradoxical,label_Bronchospasm paradoxical
+149,bruxism,label_Bruxism
+150,bundle branch block,label_Bundle branch block
+151,burning sensation,label_Burning sensation
+152,bursitis,label_Bursitis
+153,cachexia,label_Cachexia
+154,candida infection,label_Candida infection
+155,cardiac arrest,label_Cardiac arrest
+156,cardiac disorder,label_Cardiac disorder
+157,cardiac failure,label_Cardiac failure
+158,cardiac failure congestive,label_Cardiac failure congestive
+159,cardiac flutter,label_Cardiac flutter
+160,cardiac murmur,label_Cardiac murmur
+161,cardiac output decreased,label_Cardiac output decreased
+162,cardiogenic shock,label_Cardiogenic shock
+163,cardiomegaly,label_Cardiomegaly
+164,cardiomyopathy,label_Cardiomyopathy
+165,cardiovascular disorder,label_Cardiovascular disorder
+166,carpal tunnel syndrome,label_Carpal tunnel syndrome
+167,cataract,label_Cataract
+168,catheter site pain,label_Catheter site pain
+169,cellulitis,label_Cellulitis
+170,cerebellar syndrome,label_Cerebellar syndrome
+171,cerebral haemorrhage,label_Cerebral haemorrhage
+172,cerebral infarction,label_Cerebral infarction
+173,cerebral ischaemia,label_Cerebral ischaemia
+174,cerebrovascular accident,label_Cerebrovascular accident
+175,cerebrovascular disorder,label_Cerebrovascular disorder
+176,cervix disorder,label_Cervix disorder
+177,change of bowel habit,label_Change of bowel habit
+178,cheilitis,label_Cheilitis
+179,chest discomfort,label_Chest discomfort
+180,chest pain,label_Chest pain
+181,chills,label_Chills
+182,cholecystitis,label_Cholecystitis
+183,cholelithiasis,label_Cholelithiasis
+184,cholestasis,label_Cholestasis
+185,choreoathetosis,label_Choreoathetosis
+186,chromatopsia,label_Chromatopsia
+187,chromaturia,label_Chromaturia
+188,chronic obstructive pulmonary disease,label_Chronic obstructive pulmonary disease
+189,clostridium difficile colitis,label_Clostridium difficile colitis
+190,coagulopathy,label_Coagulopathy
+191,cognitive disorder,label_Cognitive disorder
+192,cold sweat,label_Cold sweat
+193,colitis,label_Colitis
+194,colitis ischaemic,label_Colitis ischaemic
+195,colitis ulcerative,label_Colitis ulcerative
+196,coma,label_Coma
+197,completed suicide,label_Completed suicide
+198,conduction disorder,label_Conduction disorder
+199,confusional state,label_Confusional state
+200,congenital eye disorder,label_Congenital eye disorder
+201,conjunctival haemorrhage,label_Conjunctival haemorrhage
+202,conjunctival hyperaemia,label_Conjunctival hyperaemia
+203,conjunctival oedema,label_Conjunctival oedema
+204,conjunctivitis,label_Conjunctivitis
+205,conjunctivitis allergic,label_Conjunctivitis allergic
+206,connective tissue disorder,label_Connective tissue disorder
+207,constipation,label_Constipation
+208,contusion,label_Contusion
+209,conversion disorder,label_Conversion disorder
+210,coordination abnormal,label_Coordination abnormal
+211,corneal erosion,label_Corneal erosion
+212,corneal lesion,label_Corneal lesion
+213,corneal opacity,label_Corneal opacity
+214,coronary artery disease,label_Coronary artery disease
+215,cough,label_Cough
+216,crohn's disease,label_Crohn's disease
+217,crying,label_Crying
+218,cushing's syndrome,label_Cushing's syndrome
+219,cyanosis,label_Cyanosis
+220,cyst,label_Cyst
+221,cystitis,label_Cystitis
+222,cystitis haemorrhagic,label_Cystitis haemorrhagic
+223,cystitis noninfective,label_Cystitis noninfective
+224,deafness,label_Deafness
+225,decreased appetite,label_Decreased appetite
+226,deep vein thrombosis,label_Deep vein thrombosis
+227,dehydration,label_Dehydration
+228,delirium,label_Delirium
+229,delusion,label_Delusion
+230,dementia,label_Dementia
+231,dental caries,label_Dental caries
+232,depressed level of consciousness,label_Depressed level of consciousness
+233,depressed mood,label_Depressed mood
+234,depression,label_Depression
+235,derealisation,label_Derealisation
+236,dermatitis,label_Dermatitis
+237,dermatitis acneiform,label_Dermatitis acneiform
+238,dermatitis atopic,label_Dermatitis atopic
+239,dermatitis bullous,label_Dermatitis bullous
+240,dermatitis contact,label_Dermatitis contact
+241,dermatitis exfoliative,label_Dermatitis exfoliative
+242,diabetes mellitus,label_Diabetes mellitus
+243,diarrhoea,label_Diarrhoea
+244,diarrhoea haemorrhagic,label_Diarrhoea haemorrhagic
+245,diplopia,label_Diplopia
+246,discomfort,label_Discomfort
+247,disorientation,label_Disorientation
+248,disseminated intravascular coagulation,label_Disseminated intravascular coagulation
+249,disturbance in attention,label_Disturbance in attention
+250,disturbance in sexual arousal,label_Disturbance in sexual arousal
+251,diverticulitis,label_Diverticulitis
+252,dizziness,label_Dizziness
+253,dizziness postural,label_Dizziness postural
+254,drug eruption,label_Drug eruption
+255,drug hypersensitivity,label_Drug hypersensitivity
+256,drug ineffective,label_Drug ineffective
+257,dry eye,label_Dry eye
+258,dry mouth,label_Dry mouth
+259,dry skin,label_Dry skin
+260,dry throat,label_Dry throat
+261,duodenal ulcer,label_Duodenal ulcer
+262,duodenitis,label_Duodenitis
+263,dysaesthesia,label_Dysaesthesia
+264,dysarthria,label_Dysarthria
+265,dysgeusia,label_Dysgeusia
+266,dyskinesia,label_Dyskinesia
+267,dysmenorrhoea,label_Dysmenorrhoea
+268,dyspareunia,label_Dyspareunia
+269,dyspepsia,label_Dyspepsia
+270,dysphagia,label_Dysphagia
+271,dysphonia,label_Dysphonia
+272,dysphoria,label_Dysphoria
+273,dyspnoea,label_Dyspnoea
+274,dyspnoea exertional,label_Dyspnoea exertional
+275,dysuria,label_Dysuria
+276,ear disorder,label_Ear disorder
+277,ear infection,label_Ear infection
+278,ear pain,label_Ear pain
+279,ecchymosis,label_Ecchymosis
+280,eczema,label_Eczema
+281,ejaculation delayed,label_Ejaculation delayed
+282,ejaculation disorder,label_Ejaculation disorder
+283,ejaculation failure,label_Ejaculation failure
+284,electrocardiogram abnormal,label_Electrocardiogram abnormal
+285,electrocardiogram qt prolonged,label_Electrocardiogram QT prolonged
+286,electrocardiogram st segment depression,label_Electrocardiogram ST segment depression
+287,electroencephalogram abnormal,label_Electroencephalogram abnormal
+288,electrolyte imbalance,label_Electrolyte imbalance
+289,embolism,label_Embolism
+290,embolism venous,label_Embolism venous
+291,emotional disorder,label_Emotional disorder
+292,emphysema,label_Emphysema
+293,encephalopathy,label_Encephalopathy
+294,endocrine disorder,label_Endocrine disorder
+295,endometrial disorder,label_Endometrial disorder
+296,endophthalmitis,label_Endophthalmitis
+297,enteritis,label_Enteritis
+298,enterocolitis,label_Enterocolitis
+299,enuresis,label_Enuresis
+300,eosinophilia,label_Eosinophilia
+301,epididymitis,label_Epididymitis
+302,epigastric discomfort,label_Epigastric discomfort
+303,epistaxis,label_Epistaxis
+304,erectile dysfunction,label_Erectile dysfunction
+305,eructation,label_Eructation
+306,erythema,label_Erythema
+307,erythema multiforme,label_Erythema multiforme
+308,erythema nodosum,label_Erythema nodosum
+309,erythema of eyelid,label_Erythema of eyelid
+310,euphoric mood,label_Euphoric mood
+312,exophthalmos,label_Exophthalmos
+313,exostosis,label_Exostosis
+314,extrapyramidal disorder,label_Extrapyramidal disorder
+315,extrasystoles,label_Extrasystoles
+316,extravasation,label_Extravasation
+317,eye discharge,label_Eye discharge
+318,eye disorder,label_Eye disorder
+319,eye haemorrhage,label_Eye haemorrhage
+320,eye infection,label_Eye infection
+321,eye irritation,label_Eye irritation
+322,eye oedema,label_Eye oedema
+323,eye pain,label_Eye pain
+324,eye pruritus,label_Eye pruritus
+325,eye swelling,label_Eye swelling
+326,eyelid oedema,label_Eyelid oedema
+327,face oedema,label_Face oedema
+328,faecalith,label_Faecalith
+329,faecaloma,label_Faecaloma
+330,faeces discoloured,label_Faeces discoloured
+331,fasting,label_Fasting
+332,fatigue,label_Fatigue
+333,febrile neutropenia,label_Febrile neutropenia
+334,feeling abnormal,label_Feeling abnormal
+335,feeling cold,label_Feeling cold
+336,feeling drunk,label_Feeling drunk
+337,feeling hot,label_Feeling hot
+338,feeling jittery,label_Feeling jittery
+339,fibrocystic breast disease,label_Fibrocystic breast disease
+340,flank pain,label_Flank pain
+341,flat affect,label_Flat affect
+342,flatulence,label_Flatulence
+344,fluid retention,label_Fluid retention
+345,flushing,label_Flushing
+346,foetor hepaticus,label_Foetor hepaticus
+347,folliculitis,label_Folliculitis
+348,fracture,label_Fracture
+349,functional gastrointestinal disorder,label_Functional gastrointestinal disorder
+350,fungal infection,label_Fungal infection
+351,fungal skin infection,label_Fungal skin infection
+352,furuncle,label_Furuncle
+353,gait disturbance,label_Gait disturbance
+354,galactorrhoea,label_Galactorrhoea
+355,gamma-glutamyltransferase increased,label_Gamma-glutamyltransferase increased
+356,gangrene,label_Gangrene
+357,gastric ulcer,label_Gastric ulcer
+358,gastritis,label_Gastritis
+359,gastroenteritis,label_Gastroenteritis
+360,gastrointestinal carcinoma,label_Gastrointestinal carcinoma
+361,gastrointestinal disorder,label_Gastrointestinal disorder
+362,gastrointestinal haemorrhage,label_Gastrointestinal haemorrhage
+363,gastrointestinal infection,label_Gastrointestinal infection
+364,gastrointestinal pain,label_Gastrointestinal pain
+365,gastrointestinal perforation,label_Gastrointestinal perforation
+366,gastrointestinal ulcer,label_Gastrointestinal ulcer
+367,gastrooesophageal reflux disease,label_Gastrooesophageal reflux disease
+368,generalised oedema,label_Generalised oedema
+369,genital candidiasis,label_Genital candidiasis
+370,gingival bleeding,label_Gingival bleeding
+371,gingival pain,label_Gingival pain
+372,gingivitis,label_Gingivitis
+373,glaucoma,label_Glaucoma
+374,glossitis,label_Glossitis
+375,glossodynia,label_Glossodynia
+376,glucose tolerance impaired,label_Glucose tolerance impaired
+377,glycosuria,label_Glycosuria
+378,goitre,label_Goitre
+379,gout,label_Gout
+380,gravitational oedema,label_Gravitational oedema
+381,gynaecomastia,label_Gynaecomastia
+382,haematemesis,label_Haematemesis
+383,haematochezia,label_Haematochezia
+384,haematocrit decreased,label_Haematocrit decreased
+385,haematoma,label_Haematoma
+386,haematuria,label_Haematuria
+387,haemoglobin,label_Haemoglobin
+388,haemoglobin decreased,label_Haemoglobin decreased
+389,haemolytic anaemia,label_Haemolytic anaemia
+390,haemolytic uraemic syndrome,label_Haemolytic uraemic syndrome
+391,haemoptysis,label_Haemoptysis
+392,haemorrhage,label_Haemorrhage
+393,haemorrhage intracranial,label_Haemorrhage intracranial
+394,haemorrhagic disorder,label_Haemorrhagic disorder
+395,haemorrhoids,label_Haemorrhoids
+396,hair colour changes,label_Hair colour changes
+397,hair disorder,label_Hair disorder
+398,hair texture abnormal,label_Hair texture abnormal
+399,hallucination,label_Hallucination
+400,hangover,label_Hangover
+401,headache,label_Headache
+402,hemiplegia,label_Hemiplegia
+403,hepatic cancer,label_Hepatic cancer
+404,hepatic enzyme increased,label_Hepatic enzyme increased
+405,hepatic failure,label_Hepatic failure
+406,hepatic function abnormal,label_Hepatic function abnormal
+407,hepatic necrosis,label_Hepatic necrosis
+408,hepatic steatosis,label_Hepatic steatosis
+409,hepatitis,label_Hepatitis
+410,hepatitis cholestatic,label_Hepatitis cholestatic
+411,hepatobiliary disease,label_Hepatobiliary disease
+412,hepatocellular injury,label_Hepatocellular injury
+413,hepatomegaly,label_Hepatomegaly
+414,hepatotoxicity,label_Hepatotoxicity
+415,hernia,label_Hernia
+416,herpes simplex,label_Herpes simplex
+417,herpes virus infection,label_Herpes virus infection
+418,herpes zoster,label_Herpes zoster
+419,hiatus hernia,label_Hiatus hernia
+420,hiccups,label_Hiccups
+421,hirsutism,label_Hirsutism
+422,hostility,label_Hostility
+423,hot flush,label_Hot flush
+424,hyperacusis,label_Hyperacusis
+425,hyperaemia,label_Hyperaemia
+426,hyperaesthesia,label_Hyperaesthesia
+427,hyperbilirubinaemia,label_Hyperbilirubinaemia
+428,hypercalcaemia,label_Hypercalcaemia
+429,hypercalciuria,label_Hypercalciuria
+430,hypercholesterolaemia,label_Hypercholesterolaemia
+431,hyperglycaemia,label_Hyperglycaemia
+432,hyperhidrosis,label_Hyperhidrosis
+433,hyperkalaemia,label_Hyperkalaemia
+434,hyperkeratosis,label_Hyperkeratosis
+435,hyperkinesia,label_Hyperkinesia
+436,hyperlactacidaemia,label_Hyperlactacidaemia
+437,hyperlipidaemia,label_Hyperlipidaemia
+438,hypermagnesaemia,label_Hypermagnesaemia
+439,hypernatraemia,label_Hypernatraemia
+440,hyperpathia,label_Hyperpathia
+441,hyperphosphataemia,label_Hyperphosphataemia
+442,hyperreflexia,label_Hyperreflexia
+443,hypersensitivity,label_Hypersensitivity
+444,hypersomnia,label_Hypersomnia
+445,hypertension,label_Hypertension
+446,hyperthyroidism,label_Hyperthyroidism
+447,hypertonia,label_Hypertonia
+448,hypertrichosis,label_Hypertrichosis
+449,hypertriglyceridaemia,label_Hypertriglyceridaemia
+450,hyperuricaemia,label_Hyperuricaemia
+451,hyperventilation,label_Hyperventilation
+452,hypoaesthesia,label_Hypoaesthesia
+453,hypoaesthesia oral,label_Hypoaesthesia oral
+454,hypoalbuminaemia,label_Hypoalbuminaemia
+455,hypocalcaemia,label_Hypocalcaemia
+456,hypochloraemia,label_Hypochloraemia
+457,hypochromic anaemia,label_Hypochromic anaemia
+458,hypoglycaemia,label_Hypoglycaemia
+459,hypohidrosis,label_Hypohidrosis
+460,hypokalaemia,label_Hypokalaemia
+461,hypokinesia,label_Hypokinesia
+462,hypomagnesaemia,label_Hypomagnesaemia
+463,hypomania,label_Hypomania
+464,hyponatraemia,label_Hyponatraemia
+465,hypophosphataemia,label_Hypophosphataemia
+466,hypoproteinaemia,label_Hypoproteinaemia
+467,hyporeflexia,label_Hyporeflexia
+468,hypotension,label_Hypotension
+469,hypothermia,label_Hypothermia
+470,hypothyroidism,label_Hypothyroidism
+471,hypotonia,label_Hypotonia
+472,hypoventilation,label_Hypoventilation
+473,hypoxia,label_Hypoxia
+474,ileus,label_Ileus
+475,ileus paralytic,label_Ileus paralytic
+476,ill-defined disorder,label_Ill-defined disorder
+477,immune system disorder,label_Immune system disorder
+478,impaired gastric emptying,label_Impaired gastric emptying
+479,impaired healing,label_Impaired healing
+480,impetigo,label_Impetigo
+481,inappropriate antidiuretic hormone secretion,label_Inappropriate antidiuretic hormone secretion
+482,incontinence,label_Incontinence
+483,increased appetite,label_Increased appetite
+484,increased bronchial secretion,label_Increased bronchial secretion
+485,increased tendency to bruise,label_Increased tendency to bruise
+486,induration,label_Induration
+487,infarction,label_Infarction
+488,infection,label_Infection
+489,infestation,label_Infestation
+490,inflammation,label_Inflammation
+491,influenza,label_Influenza
+492,influenza like illness,label_Influenza like illness
+493,infusion site pain,label_Infusion site pain
+494,infusion site reaction,label_Infusion site reaction
+495,injection site bruising,label_Injection site bruising
+496,injection site erythema,label_Injection site erythema
+497,injection site haemorrhage,label_Injection site haemorrhage
+498,injection site induration,label_Injection site induration
+499,injection site inflammation,label_Injection site inflammation
+500,injection site pain,label_Injection site pain
+501,injection site pruritus,label_Injection site pruritus
+502,injection site reaction,label_Injection site reaction
+503,injection site swelling,label_Injection site swelling
+504,injury,label_Injury
+505,insomnia,label_Insomnia
+506,instillation site pain,label_Instillation site pain
+507,intermittent claudication,label_Intermittent claudication
+508,international normalised ratio increased,label_International normalised ratio increased
+509,interstitial lung disease,label_Interstitial lung disease
+510,intestinal obstruction,label_Intestinal obstruction
+511,intestinal perforation,label_Intestinal perforation
+512,intracranial pressure increased,label_Intracranial pressure increased
+513,intraocular pressure increased,label_Intraocular pressure increased
+514,iritis,label_Iritis
+515,iron deficiency anaemia,label_Iron deficiency anaemia
+516,irritability,label_Irritability
+517,irritable bowel syndrome,label_Irritable bowel syndrome
+518,ischaemia,label_Ischaemia
+519,jaundice,label_Jaundice
+520,jaundice cholestatic,label_Jaundice cholestatic
+521,joint stiffness,label_Joint stiffness
+522,joint swelling,label_Joint swelling
+523,keratitis,label_Keratitis
+524,ketosis,label_Ketosis
+525,laboratory test abnormal,label_Laboratory test abnormal
+526,labyrinthitis,label_Labyrinthitis
+528,lacrimal disorder,label_Lacrimal disorder
+529,lacrimal structural disorder,label_Lacrimal structural disorder
+530,lacrimation increased,label_Lacrimation increased
+531,lactic acidosis,label_Lactic acidosis
+532,laryngeal oedema,label_Laryngeal oedema
+533,laryngeal pain,label_Laryngeal pain
+534,laryngitis,label_Laryngitis
+535,laryngospasm,label_Laryngospasm
+536,lethargy,label_Lethargy
+537,leukocytosis,label_Leukocytosis
+538,leukoderma,label_Leukoderma
+539,leukopenia,label_Leukopenia
+540,libido decreased,label_Libido decreased
+541,libido disorder,label_Libido disorder
+542,libido increased,label_Libido increased
+543,lichenoid keratosis,label_Lichenoid keratosis
+544,ligament sprain,label_Ligament sprain
+545,lipase increased,label_Lipase increased
+546,lipodystrophy acquired,label_Lipodystrophy acquired
+547,liver disorder,label_Liver disorder
+548,liver function test abnormal,label_Liver function test abnormal
+549,liver injury,label_Liver injury
+551,loss of consciousness,label_Loss of consciousness
+552,loss of libido,label_Loss of libido
+553,lower respiratory tract infection,label_Lower respiratory tract infection
+554,lung disorder,label_Lung disorder
+556,lung infiltration,label_Lung infiltration
+557,lymphadenopathy,label_Lymphadenopathy
+558,lymphocyte count decreased,label_Lymphocyte count decreased
+559,lymphocytosis,label_Lymphocytosis
+560,lymphoedema,label_Lymphoedema
+561,lymphoma,label_Lymphoma
+562,lymphopenia,label_Lymphopenia
+563,major depression,label_Major depression
+564,malaise,label_Malaise
+565,malignant melanoma,label_Malignant melanoma
+566,malnutrition,label_Malnutrition
+567,mania,label_Mania
+568,mastitis,label_Mastitis
+569,mediastinal disorder,label_Mediastinal disorder
+570,melaena,label_Melaena
+571,melanosis,label_Melanosis
+572,memory impairment,label_Memory impairment
+573,meningitis,label_Meningitis
+574,menopausal symptoms,label_Menopausal symptoms
+575,menopause,label_Menopause
+577,menstrual disorder,label_Menstrual disorder
+578,menstruation irregular,label_Menstruation irregular
+579,mental disability,label_Mental disability
+580,mental disorder,label_Mental disorder
+581,metabolic acidosis,label_Metabolic acidosis
+583,micturition disorder,label_Micturition disorder
+584,micturition urgency,label_Micturition urgency
+585,migraine,label_Migraine
+586,miosis,label_Miosis
+587,monocytosis,label_Monocytosis
+588,mood swings,label_Mood swings
+589,motion sickness,label_Motion sickness
+590,mouth ulceration,label_Mouth ulceration
+591,movement disorder,label_Movement disorder
+592,mucosal inflammation,label_Mucosal inflammation
+594,multiple fractures,label_Multiple fractures
+595,muscle atrophy,label_Muscle atrophy
+596,muscle contractions involuntary,label_Muscle contractions involuntary
+597,muscle relaxant therapy,label_Muscle relaxant therapy
+598,muscle rigidity,label_Muscle rigidity
+599,muscle spasms,label_Muscle spasms
+600,muscle tightness,label_Muscle tightness
+601,muscle twitching,label_Muscle twitching
+602,muscular weakness,label_Muscular weakness
+603,musculoskeletal chest pain,label_Musculoskeletal chest pain
+604,musculoskeletal discomfort,label_Musculoskeletal discomfort
+605,musculoskeletal pain,label_Musculoskeletal pain
+606,musculoskeletal stiffness,label_Musculoskeletal stiffness
+607,myalgia,label_Myalgia
+608,mydriasis,label_Mydriasis
+609,myelitis,label_Myelitis
+610,myocardial infarction,label_Myocardial infarction
+611,myocardial ischaemia,label_Myocardial ischaemia
+612,myocarditis,label_Myocarditis
+613,myoclonus,label_Myoclonus
+614,myopathy,label_Myopathy
+615,myositis,label_Myositis
+616,nail disorder,label_Nail disorder
+617,nasal congestion,label_Nasal congestion
+618,nasal discomfort,label_Nasal discomfort
+619,nasal dryness,label_Nasal dryness
+620,nasopharyngitis,label_Nasopharyngitis
+621,nausea,label_Nausea
+622,neck pain,label_Neck pain
+623,neoplasm,label_Neoplasm
+624,neoplasm malignant,label_Neoplasm malignant
+625,nephritis,label_Nephritis
+626,nephrolithiasis,label_Nephrolithiasis
+627,nephropathy,label_Nephropathy
+628,nephropathy toxic,label_Nephropathy toxic
+629,nephrotic syndrome,label_Nephrotic syndrome
+630,nervous system disorder,label_Nervous system disorder
+631,nervousness,label_Nervousness
+632,neuralgia,label_Neuralgia
+633,neuritis,label_Neuritis
+634,neuroleptic malignant syndrome,label_Neuroleptic malignant syndrome
+635,neuropathy peripheral,label_Neuropathy peripheral
+636,neurosis,label_Neurosis
+637,neurotoxicity,label_Neurotoxicity
+638,neutropenia,label_Neutropenia
+639,neutropenic sepsis,label_Neutropenic sepsis
+640,neutrophil count decreased,label_Neutrophil count decreased
+641,night blindness,label_Night blindness
+642,night sweats,label_Night sweats
+643,nightmare,label_Nightmare
+644,nocturia,label_Nocturia
+645,nodal arrhythmia,label_Nodal arrhythmia
+646,nodule,label_Nodule
+647,non-cardiac chest pain,label_Non-cardiac chest pain
+648,non-hodgkin's lymphoma,label_Non-Hodgkin's lymphoma
+649,nuchal rigidity,label_Nuchal rigidity
+650,nystagmus,label_Nystagmus
+651,ocular discomfort,label_Ocular discomfort
+652,ocular hyperaemia,label_Ocular hyperaemia
+653,oculogyric crisis,label_Oculogyric crisis
+654,odynophagia,label_Odynophagia
+655,oedema,label_Oedema
+656,oedema peripheral,label_Oedema peripheral
+657,oesophageal spasm,label_Oesophageal spasm
+658,oesophageal stenosis,label_Oesophageal stenosis
+659,oesophageal ulcer,label_Oesophageal ulcer
+660,oesophagitis,label_Oesophagitis
+661,oliguria,label_Oliguria
+662,onychomycosis,label_Onychomycosis
+663,opportunistic infection,label_Opportunistic infection
+664,optic atrophy,label_Optic atrophy
+665,optic neuritis,label_Optic neuritis
+666,oral candidiasis,label_Oral candidiasis
+667,oral herpes,label_Oral herpes
+668,oral pain,label_Oral pain
+669,orchitis noninfective,label_Orchitis noninfective
+670,orgasm abnormal,label_Orgasm abnormal
+671,oropharyngeal discomfort,label_Oropharyngeal discomfort
+672,oropharyngeal pain,label_Oropharyngeal pain
+673,orthostatic hypotension,label_Orthostatic hypotension
+674,osteoarthritis,label_Osteoarthritis
+675,osteomyelitis,label_Osteomyelitis
+676,osteonecrosis,label_Osteonecrosis
+677,osteoporosis,label_Osteoporosis
+678,otitis externa,label_Otitis externa
+679,otitis media,label_Otitis media
+680,ototoxicity,label_Ototoxicity
+681,ovarian cyst,label_Ovarian cyst
+682,ovarian disorder,label_Ovarian disorder
+683,pain,label_Pain
+684,pain in extremity,label_Pain in extremity
+685,pain in jaw,label_Pain in jaw
+686,pain of skin,label_Pain of skin
+687,pallor,label_Pallor
+688,palpitations,label_Palpitations
+689,pancreatitis,label_Pancreatitis
+690,pancreatitis acute,label_Pancreatitis acute
+691,pancytopenia,label_Pancytopenia
+692,panic attack,label_Panic attack
+693,panic reaction,label_Panic reaction
+694,panophthalmitis,label_Panophthalmitis
+695,papilloedema,label_Papilloedema
+696,paraesthesia,label_Paraesthesia
+697,paraesthesia oral,label_Paraesthesia oral
+698,paralysis,label_Paralysis
+699,paranoia,label_Paranoia
+700,paresis,label_Paresis
+701,parkinsonism,label_Parkinsonism
+702,parosmia,label_Parosmia
+703,pelvic pain,label_Pelvic pain
+704,penis disorder,label_Penis disorder
+705,peptic ulcer,label_Peptic ulcer
+706,pericardial effusion,label_Pericardial effusion
+707,pericarditis,label_Pericarditis
+708,perineal pain,label_Perineal pain
+709,periodontitis,label_Periodontitis
+710,periorbital oedema,label_Periorbital oedema
+711,peripheral coldness,label_Peripheral coldness
+712,peripheral ischaemia,label_Peripheral ischaemia
+713,peripheral motor neuropathy,label_Peripheral motor neuropathy
+714,peripheral sensory neuropathy,label_Peripheral sensory neuropathy
+715,peripheral vascular disorder,label_Peripheral vascular disorder
+716,peritonitis,label_Peritonitis
+717,personality disorder,label_Personality disorder
+718,petechiae,label_Petechiae
+719,pharyngeal oedema,label_Pharyngeal oedema
+720,pharyngitis,label_Pharyngitis
+721,pharyngitis streptococcal,label_Pharyngitis streptococcal
+722,phlebitis,label_Phlebitis
+723,photophobia,label_Photophobia
+724,photopsia,label_Photopsia
+725,photosensitivity reaction,label_Photosensitivity reaction
+726,pigmentation disorder,label_Pigmentation disorder
+727,plasma cell myeloma,label_Plasma cell myeloma
+728,plasmacytoma,label_Plasmacytoma
+729,platelet count decreased,label_Platelet count decreased
+730,pleural effusion,label_Pleural effusion
+731,pleurisy,label_Pleurisy
+732,pleuritic pain,label_Pleuritic pain
+733,pneumonia,label_Pneumonia
+734,pneumonia aspiration,label_Pneumonia aspiration
+735,pneumothorax,label_Pneumothorax
+736,pollakiuria,label_Pollakiuria
+737,polycythaemia,label_Polycythaemia
+738,polydipsia,label_Polydipsia
+739,polyneuropathy,label_Polyneuropathy
+740,polyuria,label_Polyuria
+741,post procedural haemorrhage,label_Post procedural haemorrhage
+742,premenstrual syndrome,label_Premenstrual syndrome
+743,presyncope,label_Presyncope
+744,priapism,label_Priapism
+745,procedural pain,label_Procedural pain
+746,proctalgia,label_Proctalgia
+747,proctitis,label_Proctitis
+748,productive cough,label_Productive cough
+749,prostate cancer,label_Prostate cancer
+750,prostatic disorder,label_Prostatic disorder
+751,prostatitis,label_Prostatitis
+752,protein total decreased,label_Protein total decreased
+753,protein urine present,label_Protein urine present
+754,proteinuria,label_Proteinuria
+755,prothrombin level decreased,label_Prothrombin level decreased
+756,prothrombin level increased,label_Prothrombin level increased
+757,prurigo,label_Prurigo
+758,pruritus,label_Pruritus
+760,pruritus genital,label_Pruritus genital
+761,pseudolymphoma,label_Pseudolymphoma
+762,pseudomembranous colitis,label_Pseudomembranous colitis
+763,psoriasis,label_Psoriasis
+764,psychomotor retardation,label_Psychomotor retardation
+765,psychotic disorder,label_Psychotic disorder
+766,pulmonary congestion,label_Pulmonary congestion
+767,pulmonary embolism,label_Pulmonary embolism
+768,pulmonary fibrosis,label_Pulmonary fibrosis
+769,pulmonary function test decreased,label_Pulmonary function test decreased
+770,pulmonary hypertension,label_Pulmonary hypertension
+771,pulmonary oedema,label_Pulmonary oedema
+772,punctate keratitis,label_Punctate keratitis
+774,purpura,label_Purpura
+775,pyelonephritis,label_Pyelonephritis
+776,pyuria,label_Pyuria
+777,rales,label_Rales
+778,rash,label_Rash
+779,rash erythematous,label_Rash erythematous
+781,rash macular,label_Rash macular
+782,rash maculo-papular,label_Rash maculo-papular
+783,rash papular,label_Rash papular
+784,rash pustular,label_Rash pustular
+785,rectal haemorrhage,label_Rectal haemorrhage
+786,rectal tenesmus,label_Rectal tenesmus
+787,regurgitation,label_Regurgitation
+788,renal failure,label_Renal failure
+789,renal impairment,label_Renal impairment
+790,renal pain,label_Renal pain
+791,renal tubular necrosis,label_Renal tubular necrosis
+792,respiration abnormal,label_Respiration abnormal
+793,respiratory depression,label_Respiratory depression
+794,respiratory disorder,label_Respiratory disorder
+795,respiratory distress,label_Respiratory distress
+796,respiratory failure,label_Respiratory failure
+797,respiratory tract congestion,label_Respiratory tract congestion
+798,respiratory tract infection,label_Respiratory tract infection
+799,restless legs syndrome,label_Restless legs syndrome
+800,retching,label_Retching
+801,retinal degeneration,label_Retinal degeneration
+802,retinal detachment,label_Retinal detachment
+803,retinal disorder,label_Retinal disorder
+804,retinal haemorrhage,label_Retinal haemorrhage
+805,retroperitoneal haemorrhage,label_Retroperitoneal haemorrhage
+806,rhabdomyolysis,label_Rhabdomyolysis
+807,rheumatoid arthritis,label_Rheumatoid arthritis
+808,rhinitis,label_Rhinitis
+809,rhinitis allergic,label_Rhinitis allergic
+810,rhinorrhoea,label_Rhinorrhoea
+811,rhonchi,label_Rhonchi
+812,road traffic accident,label_Road traffic accident
+813,rosacea,label_Rosacea
+814,salivary gland enlargement,label_Salivary gland enlargement
+815,salivary hypersecretion,label_Salivary hypersecretion
+816,salpingitis,label_Salpingitis
+817,scab,label_Scab
+818,schizophreniform disorder,label_Schizophreniform disorder
+819,sciatica,label_Sciatica
+820,scleritis,label_Scleritis
+821,seasonal allergy,label_Seasonal allergy
+822,seborrhoeic dermatitis,label_Seborrhoeic dermatitis
+823,seborrhoeic keratosis,label_Seborrhoeic keratosis
+824,sensation of foreign body,label_Sensation of foreign body
+825,sensory disturbance,label_Sensory disturbance
+826,sensory loss,label_Sensory loss
+827,sepsis,label_Sepsis
+828,septic shock,label_Septic shock
+829,serotonin syndrome,label_Serotonin syndrome
+830,serum sickness,label_Serum sickness
+831,sexual dysfunction,label_Sexual dysfunction
+832,shock,label_Shock
+833,sialoadenitis,label_Sialoadenitis
+834,sinus bradycardia,label_Sinus bradycardia
+835,sinus congestion,label_Sinus congestion
+836,sinus headache,label_Sinus headache
+837,sinus tachycardia,label_Sinus tachycardia
+838,sinusitis,label_Sinusitis
+839,skin atrophy,label_Skin atrophy
+840,skin burning sensation,label_Skin burning sensation
+841,skin cancer,label_Skin cancer
+842,skin discolouration,label_Skin discolouration
+843,skin disorder,label_Skin disorder
+844,skin exfoliation,label_Skin exfoliation
+845,skin hyperpigmentation,label_Skin hyperpigmentation
+846,skin hypertrophy,label_Skin hypertrophy
+847,skin infection,label_Skin infection
+848,skin irritation,label_Skin irritation
+849,skin lesion,label_Skin lesion
+850,skin mass,label_Skin mass
+851,skin odour abnormal,label_Skin odour abnormal
+852,skin papilloma,label_Skin papilloma
+853,skin striae,label_Skin striae
+854,skin ulcer,label_Skin ulcer
+855,sleep apnoea syndrome,label_Sleep apnoea syndrome
+856,sleep disorder,label_Sleep disorder
+857,sluggishness,label_Sluggishness
+858,sneezing,label_Sneezing
+859,snoring,label_Snoring
+860,somnambulism,label_Somnambulism
+861,somnolence,label_Somnolence
+862,speech disorder,label_Speech disorder
+863,splenomegaly,label_Splenomegaly
+864,sputum increased,label_Sputum increased
+865,staphylococcal infection,label_Staphylococcal infection
+866,status epilepticus,label_Status epilepticus
+867,stevens-johnson syndrome,label_Stevens-Johnson syndrome
+868,sticky skin,label_Sticky skin
+869,stomatitis,label_Stomatitis
+870,strangury,label_Strangury
+871,stridor,label_Stridor
+872,stupor,label_Stupor
+873,subarachnoid haemorrhage,label_Subarachnoid haemorrhage
+874,subdural haematoma,label_Subdural haematoma
+875,sudden death,label_Sudden death
+876,suicidal ideation,label_Suicidal ideation
+877,suicide attempt,label_Suicide attempt
+878,sunburn,label_Sunburn
+879,supraventricular extrasystoles,label_Supraventricular extrasystoles
+880,supraventricular tachycardia,label_Supraventricular tachycardia
+881,swelling,label_Swelling
+882,swelling face,label_Swelling face
+883,syncope,label_Syncope
+884,systemic lupus erythematosus,label_Systemic lupus erythematosus
+885,tachycardia,label_Tachycardia
+886,tachypnoea,label_Tachypnoea
+887,tardive dyskinesia,label_Tardive dyskinesia
+888,telangiectasia,label_Telangiectasia
+889,temperature intolerance,label_Temperature intolerance
+890,tenderness,label_Tenderness
+891,tendinous contracture,label_Tendinous contracture
+892,tendon disorder,label_Tendon disorder
+893,tendonitis,label_Tendonitis
+894,tenosynovitis,label_Tenosynovitis
+895,tension,label_Tension
+896,tension headache,label_Tension headache
+897,testicular pain,label_Testicular pain
+898,tetany,label_Tetany
+899,therapeutic response unexpected,label_Therapeutic response unexpected
+900,thinking abnormal,label_Thinking abnormal
+901,thirst,label_Thirst
+902,throat irritation,label_Throat irritation
+903,throat tightness,label_Throat tightness
+904,thrombocytopenia,label_Thrombocytopenia
+905,thrombocytosis,label_Thrombocytosis
+906,thrombophlebitis,label_Thrombophlebitis
+907,thrombosis,label_Thrombosis
+908,thrombotic thrombocytopenic purpura,label_Thrombotic thrombocytopenic purpura
+909,thyroid disorder,label_Thyroid disorder
+910,thyroid neoplasm,label_Thyroid neoplasm
+911,thyroiditis,label_Thyroiditis
+912,tinnitus,label_Tinnitus
+913,tongue discolouration,label_Tongue discolouration
+914,tongue disorder,label_Tongue disorder
+915,tongue oedema,label_Tongue oedema
+916,tongue ulceration,label_Tongue ulceration
+917,tonsillitis,label_Tonsillitis
+918,tooth abscess,label_Tooth abscess
+919,tooth disorder,label_Tooth disorder
+920,tooth infection,label_Tooth infection
+921,toothache,label_Toothache
+922,torsade de pointes,label_Torsade de pointes
+923,torticollis,label_Torticollis
+924,toxic epidermal necrolysis,label_Toxic epidermal necrolysis
+925,toxicity to various agents,label_Toxicity to various agents
+926,tracheitis,label_Tracheitis
+927,tracheobronchitis,label_Tracheobronchitis
+928,transaminases increased,label_Transaminases increased
+929,transient ischaemic attack,label_Transient ischaemic attack
+930,tremor,label_Tremor
+931,trismus,label_Trismus
+932,tubulointerstitial nephritis,label_Tubulointerstitial nephritis
+933,tumour lysis syndrome,label_Tumour lysis syndrome
+934,ulcer,label_Ulcer
+935,ulcerative keratitis,label_Ulcerative keratitis
+936,unintended pregnancy,label_Unintended pregnancy
+937,upper respiratory tract infection,label_Upper respiratory tract infection
+938,upper-airway cough syndrome,label_Upper-airway cough syndrome
+939,urethral disorder,label_Urethral disorder
+940,urethritis,label_Urethritis
+941,urethritis noninfective,label_Urethritis noninfective
+942,urinary hesitation,label_Urinary hesitation
+943,urinary incontinence,label_Urinary incontinence
+944,urinary retention,label_Urinary retention
+945,urinary tract disorder,label_Urinary tract disorder
+946,urinary tract infection,label_Urinary tract infection
+947,urine abnormality,label_Urine abnormality
+948,urine analysis abnormal,label_Urine analysis abnormal
+949,urine output increased,label_Urine output increased
+950,urticaria,label_Urticaria
+951,uterine disorder,label_Uterine disorder
+952,uterine haemorrhage,label_Uterine haemorrhage
+953,uterine leiomyoma,label_Uterine leiomyoma
+954,uterine spasm,label_Uterine spasm
+955,uveitis,label_Uveitis
+956,vaginal discharge,label_Vaginal discharge
+957,vaginal haemorrhage,label_Vaginal haemorrhage
+958,vaginal infection,label_Vaginal infection
+959,varicose vein,label_Varicose vein
+960,vascular headache,label_Vascular headache
+961,vascular purpura,label_Vascular purpura
+962,vasculitis,label_Vasculitis
+963,vasodilation procedure,label_Vasodilation procedure
+964,vasospasm,label_Vasospasm
+965,venous thrombosis,label_Venous thrombosis
+966,ventricular arrhythmia,label_Ventricular arrhythmia
+967,ventricular extrasystoles,label_Ventricular extrasystoles
+968,ventricular fibrillation,label_Ventricular fibrillation
+969,ventricular tachycardia,label_Ventricular tachycardia
+970,vertigo,label_Vertigo
+971,vestibular disorder,label_Vestibular disorder
+972,viral diarrhoea,label_Viral diarrhoea
+973,viral infection,label_Viral infection
+974,viral upper respiratory tract infection,label_Viral upper respiratory tract infection
+975,vision blurred,label_Vision blurred
+976,visual acuity reduced,label_Visual acuity reduced
+977,visual impairment,label_Visual impairment
+978,vomiting,label_Vomiting
+979,vulvovaginal candidiasis,label_Vulvovaginal candidiasis
+980,vulvovaginal dryness,label_Vulvovaginal dryness
+981,vulvovaginal mycotic infection,label_Vulvovaginal mycotic infection
+982,vulvovaginal pruritus,label_Vulvovaginal pruritus
+983,vulvovaginitis,label_Vulvovaginitis
+984,weight decreased,label_Weight decreased
+985,weight increased,label_Weight increased
+986,wheezing,label_Wheezing
+987,white blood cell count decreased,label_White blood cell count decreased
+988,white blood cell count increased,label_White blood cell count increased
+989,withdrawal syndrome,label_Withdrawal syndrome
+990,wound infection,label_Wound infection
+991,wound secretion,label_Wound secretion
+992,xerophthalmia,label_Xerophthalmia
+993,yawning,label_Yawning

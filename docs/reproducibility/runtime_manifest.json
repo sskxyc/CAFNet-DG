@@ -1,0 +1,9 @@
+﻿{
+  "python": "3.9.21",
+  "platform": "Windows-10-10.0.19044-SP0",
+  "torch": "1.12.1+cu113",
+  "cuda_runtime": "11.3",
+  "pyg": "1.7.2",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Ti"
+}

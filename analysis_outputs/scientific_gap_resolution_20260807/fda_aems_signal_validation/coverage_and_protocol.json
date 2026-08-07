@@ -1,0 +1,12 @@
+{
+  "source": "FDA AEMS/FAERS quarterly potential-signal and new-safety-information tables",
+  "years": "2023-2026",
+  "source_page_count": 13,
+  "raw_entry_count": 255,
+  "strict_mapped_pair_count_before_semantic_exclusions": 62,
+  "semantic_exclusion_count": 5,
+  "non_sider_external_positive_count": 53,
+  "mapped_drug_count": 39,
+  "matched_control_row_count": 265,
+  "interpretation": "regulatory pharmacovigilance signal validation; not incidence or causal validation"
+}

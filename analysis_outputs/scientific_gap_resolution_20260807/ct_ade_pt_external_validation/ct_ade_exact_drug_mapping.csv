@@ -1,0 +1,255 @@
+nctid,group_id,intervention_name,smiles,canonical_smiles,drug_index,current_drug_name
+NCT00030147,NCT00030147_EG002,Raloxifene,O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12,O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12,325,raloxifene
+NCT00104104,NCT00104104_EG001,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00124943,NCT00124943_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT00124943,NCT00124943_EG001,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT00124943,NCT00124943_EG002,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT00124943,NCT00124943_EG003,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT00132808,NCT00132808_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00141115,NCT00141115_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00145327,NCT00145327_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00145327,NCT00145327_EG002,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00145470,NCT00145470_EG001,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT00145496,NCT00145496_EG000,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT00145509,NCT00145509_EG000,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT00150813,NCT00150813_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00152516,NCT00152516_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00154063,NCT00154063_EG001,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00156065,NCT00156065_EG000,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT00156065,NCT00156065_EG001,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT00159783,NCT00159783_EG001,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT00160654,NCT00160654_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00172042,NCT00172042_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00172042,NCT00172042_EG001,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00174265,NCT00174265_EG000,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT00242567,NCT00242567_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00249002,NCT00249002_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT00265200,NCT00265200_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00291655,NCT00291655_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00295867,NCT00295867_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00320710,NCT00320710_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00333138,NCT00333138_EG001,Fingolimod Hydrochloride,CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1.Cl,CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1.Cl,530,fingolimod
+NCT00333229,NCT00333229_EG001,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00358527,NCT00358527_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00359216,NCT00359216_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00360308,NCT00360308_EG001,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00367432,NCT00367432_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00368108,NCT00368108_EG001,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00368472,NCT00368472_EG000,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00370552,NCT00370552_EG002,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT00375505,NCT00375505_EG001,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00376220,NCT00376220_EG000,Riluzole,Nc1nc2ccc(OC(F)(F)F)cc2s1,Nc1nc2ccc(OC(F)(F)F)cc2s1,330,riluzole
+NCT00381485,NCT00381485_EG002,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00383721,NCT00383721_EG002,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00394355,NCT00394355_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00419393,NCT00419393_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00427700,NCT00427700_EG001,Raloxifene,O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12,O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12,325,raloxifene
+NCT00436917,NCT00436917_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00438451,NCT00438451_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00438659,NCT00438659_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00439244,NCT00439244_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00439647,NCT00439647_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00442117,NCT00442117_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00442351,NCT00442351_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00453063,NCT00453063_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00465972,NCT00465972_EG001,Temazepam,CN1C(=O)C(O)N=C(c2ccccc2)c2cc(Cl)ccc21,CN1C(=O)C(O)N=C(c2ccccc2)c2cc(Cl)ccc21,354,temazepam
+NCT00468312,NCT00468312_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00479765,NCT00479765_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT00505284,NCT00505284_EG001,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00505934,NCT00505934_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00518154,NCT00518154_EG000,Pyridostigmine,CN(C)C(=O)Oc1ccc[n+](C)c1,CN(C)C(=O)Oc1ccc[n+](C)c1,320,pyridostigmine
+NCT00518284,NCT00518284_EG001,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT00518284,NCT00518284_EG002,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT00518284,NCT00518284_EG003,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT00535392,NCT00535392_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00544544,NCT00544544_EG000,Riluzole,Nc1nc2ccc(OC(F)(F)F)cc2s1,Nc1nc2ccc(OC(F)(F)F)cc2s1,330,riluzole
+NCT00547586,NCT00547586_EG001,Relistor,C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],634,methylnaltrexone.bromide
+NCT00547586,NCT00547586_EG002,Relistor,C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],634,methylnaltrexone.bromide
+NCT00547586,NCT00547586_EG004,Relistor,C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],634,methylnaltrexone.bromide
+NCT00552032,NCT00552032_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00558272,NCT00558272_EG001,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00566462,NCT00566462_EG000,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00577642,NCT00577642_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00592774,NCT00592774_EG001,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00592774,NCT00592774_EG003,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00592774,NCT00592774_EG004,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00599027,NCT00599027_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00605644,NCT00605644_EG001,Relistor,C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],634,methylnaltrexone.bromide
+NCT00605644,NCT00605644_EG003,Relistor,C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],634,methylnaltrexone.bromide
+NCT00605644,NCT00605644_EG004,Relistor,C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],634,methylnaltrexone.bromide
+NCT00607724,NCT00607724_EG000,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT00607724,NCT00607724_EG001,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT00607724,NCT00607724_EG002,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT00607724,NCT00607724_EG005,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT00607724,NCT00607724_EG006,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT00618332,NCT00618332_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00618436,NCT00618436_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00621296,NCT00621296_EG000,Telaprevir,CCCC(NC(=O)C1C2CCCC2CN1C(=O)C(NC(=O)C(NC(=O)c1cnccn1)C1CCCCC1)C(C)(C)C)C(=O)C(=O)NC1CC1,CCCC(NC(=O)C1C2CCCC2CN1C(=O)C(NC(=O)C(NC(=O)c1cnccn1)C1CCCCC1)C(C)(C)C)C(=O)C(=O)NC1CC1,613,telaprevir
+NCT00640146,NCT00640146_EG000,Relistor,C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],634,methylnaltrexone.bromide
+NCT00668200,NCT00668200_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00687102,NCT00687102_EG001,Raloxifene,O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12,O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12,325,raloxifene
+NCT00687531,NCT00687531_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00709202,NCT00709202_EG000,Betahistine,CNCCc1ccccn1,CNCCc1ccccn1,65,betahistine
+NCT00712985,NCT00712985_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00718861,NCT00718861_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00720382,NCT00720382_EG001,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00728416,NCT00728416_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00730912,NCT00730912_EG000,Loratadine,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,230,loratadine
+NCT00730912,NCT00730912_EG001,Loratadine,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,230,loratadine
+NCT00730912,NCT00730912_EG002,Loratadine,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,230,loratadine
+NCT00732381,NCT00732381_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00733005,NCT00733005_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT00739661,NCT00739661_EG000,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT00740129,NCT00740129_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00764478,NCT00764478_EG000,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT00764478,NCT00764478_EG001,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT00799266,NCT00799266_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00804141,NCT00804141_EG000,Relistor,C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],634,methylnaltrexone.bromide
+NCT00804856,NCT00804856_EG000,Cytidine,Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1,Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1,11,cytarabine
+NCT00833417,NCT00833417_EG000,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT00844298,NCT00844298_EG000,Cytidine,Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1,Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1,11,cytarabine
+NCT00847522,NCT00847522_EG000,Fluorescein,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,418,fluorescein
+NCT00849212,NCT00849212_EG000,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00862563,NCT00862563_EG001,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00869206,NCT00869206_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00869206,NCT00869206_EG001,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00903786,NCT00903786_EG000,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT00916149,NCT00916149_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT00927186,NCT00927186_EG001,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT00939900,NCT00939900_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT01004393,NCT01004393_EG000,Relistor,C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],C[N+]1(CC2CC2)CCC23c4c5ccc(O)c4OC2C(=O)CCC3(O)C1C5.[Br-],634,methylnaltrexone.bromide
+NCT01006252,NCT01006252_EG001,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01018056,NCT01018056_EG001,Riluzole,Nc1nc2ccc(OC(F)(F)F)cc2s1,Nc1nc2ccc(OC(F)(F)F)cc2s1,330,riluzole
+NCT01059630,NCT01059630_EG000,Bendamustine,Cn1c(CCCC(=O)O)nc2cc(N(CCCl)CCCl)ccc21,Cn1c(CCCC(=O)O)nc2cc(N(CCCl)CCCl)ccc21,494,bendamustine
+NCT01063764,NCT01063764_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01066039,NCT01066039_EG000,Bisoprolol,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,69,bisoprolol
+NCT01079962,NCT01079962_EG000,Bisoprolol,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,69,bisoprolol
+NCT01088984,NCT01088984_EG000,Bendamustine,Cn1c(CCCC(=O)O)nc2cc(N(CCCl)CCCl)ccc21,Cn1c(CCCC(=O)O)nc2cc(N(CCCl)CCCl)ccc21,494,bendamustine
+NCT01091428,NCT01091428_EG003,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01098071,NCT01098071_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT01098110,NCT01098110_EG000,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT01104558,NCT01104558_EG000,Bisoprolol,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,69,bisoprolol
+NCT01129336,NCT01129336_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT01153763,NCT01153763_EG000,Dabrafenib,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,741,dabrafenib
+NCT01160770,NCT01160770_EG000,Clobazam,CN1C(=O)CC(=O)N(c2ccccc2)c2cc(Cl)ccc21,CN1C(=O)CC(=O)N(c2ccccc2)c2cc(Cl)ccc21,111,clobazam
+NCT01161524,NCT01161524_EG000,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT01161524,NCT01161524_EG002,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT01165424,NCT01165424_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT01166178,NCT01166178_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT01170663,NCT01170663_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01190254,NCT01190254_EG001,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT01190436,NCT01190436_EG000,Bisoprolol,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,69,bisoprolol
+NCT01197300,NCT01197300_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT01197300,NCT01197300_EG001,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT01201915,NCT01201915_EG000,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT01201915,NCT01201915_EG002,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT01204203,NCT01204203_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT01228747,NCT01228747_EG001,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01229735,NCT01229735_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01239212,NCT01239212_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01244828,NCT01244828_EG000,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT01253525,NCT01253525_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01260350,NCT01260350_EG004,Sofosbuvir,CC(C)OC(=O)C(C)NP(=O)(OCC1OC(n2ccc(=O)[nH]c2=O)C(C)(F)C1O)Oc1ccccc1,CC(C)OC(=O)C(C)NP(=O)(OCC1OC(n2ccc(=O)[nH]c2=O)C(C)(F)C1O)Oc1ccccc1,734,sofosbuvir
+NCT01267279,NCT01267279_EG001,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT01290341,NCT01290341_EG000,Naftifine Hydrochloride,CN(CC=Cc1ccccc1)Cc1cccc2ccccc12.Cl,CN(CC=Cc1ccccc1)Cc1cccc2ccccc12.Cl,446,naftifine
+NCT01292837,NCT01292837_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01294579,NCT01294579_EG000,Bendamustine,Cn1c(CCCC(=O)O)nc2cc(N(CCCl)CCCl)ccc21,Cn1c(CCCC(=O)O)nc2cc(N(CCCl)CCCl)ccc21,494,bendamustine
+NCT01360762,NCT01360762_EG000,Pentamidine,N=C(N)c1ccc(OCCCCCOc2ccc(C(=N)N)cc2)cc1,N=C(N)c1ccc(OCCCCCOc2ccc(C(=N)N)cc2)cc1,303,pentamidine.isethionate
+NCT01367665,NCT01367665_EG000,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT01367665,NCT01367665_EG001,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT01398956,NCT01398956_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01400113,NCT01400113_EG000,Asenapine,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,CN1CC2c3ccccc3Oc3ccc(Cl)cc3C2C1,575,asenapine
+NCT01407523,NCT01407523_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01409811,NCT01409811_EG000,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT01431716,NCT01431716_EG000,Epoprostenol,CCCCCC(O)C=CC1C(O)CC2OC(=CCCCC(=O)O)CC21,CCCCCC(O)C=CC1C(O)CC2OC(=CCCCC(=O)O)CC21,3,epoprostenol
+NCT01470144,NCT01470144_EG000,Epoprostenol,CCCCCC(O)C=CC1C(O)CC2OC(=CCCCC(=O)O)CC21,CCCCCC(O)C=CC1C(O)CC2OC(=CCCCC(=O)O)CC21,3,epoprostenol
+NCT01491113,NCT01491113_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01491113,NCT01491113_EG001,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01491113,NCT01491113_EG002,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01491113,NCT01491113_EG003,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01498822,NCT01498822_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01498887,NCT01498887_EG000,Fingolimod Hydrochloride,CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1.Cl,CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1.Cl,530,fingolimod
+NCT01498887,NCT01498887_EG001,Fingolimod Hydrochloride,CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1.Cl,CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1.Cl,530,fingolimod
+NCT01506882,NCT01506882_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01506882,NCT01506882_EG001,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01546519,NCT01546519_EG000,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT01556009,NCT01556009_EG000,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT01565499,NCT01565499_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01585298,NCT01585298_EG000,Fingolimod Hydrochloride,CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1.Cl,CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1.Cl,530,fingolimod
+NCT01588951,NCT01588951_EG000,Fluorescein,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,418,fluorescein
+NCT01588951,NCT01588951_EG001,Fluorescein,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,418,fluorescein
+NCT01616160,NCT01616160_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT01620190,NCT01620190_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01644890,NCT01644890_EG001,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01677741,NCT01677741_EG004,Dabrafenib,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,741,dabrafenib
+NCT01677741,NCT01677741_EG005,Dabrafenib,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,741,dabrafenib
+NCT01677741,NCT01677741_EG006,Dabrafenib,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,741,dabrafenib
+NCT01677741,NCT01677741_EG007,Dabrafenib,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,741,dabrafenib
+NCT01698710,NCT01698710_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01703117,NCT01703117_EG000,Riluzole,Nc1nc2ccc(OC(F)(F)F)cc2s1,Nc1nc2ccc(OC(F)(F)F)cc2s1,330,riluzole
+NCT01736254,NCT01736254_EG000,Gemfibrozil,Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,186,gemfibrozil
+NCT01746225,NCT01746225_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01746225,NCT01746225_EG001,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01746225,NCT01746225_EG002,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01757288,NCT01757288_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01774344,NCT01774344_EG001,Regorafenib,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,684,regorafenib
+NCT01853046,NCT01853046_EG000,Regorafenib,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,684,regorafenib
+NCT01853046,NCT01853046_EG001,Regorafenib,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,684,regorafenib
+NCT01891890,NCT01891890_EG002,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01898598,NCT01898598_EG000,Vismodegib,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,725,vismodegib
+NCT01960075,NCT01960075_EG002,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT01962103,NCT01962103_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01962103,NCT01962103_EG001,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01962103,NCT01962103_EG002,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01962103,NCT01962103_EG003,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01962103,NCT01962103_EG004,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01962103,NCT01962103_EG005,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT01978236,NCT01978236_EG000,Dabrafenib,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,741,dabrafenib
+NCT01979003,NCT01979003_EG000,Fluorescein,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,418,fluorescein
+NCT02048371,NCT02048371_EG007,Regorafenib,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,684,regorafenib
+NCT02061202,NCT02061202_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT02088541,NCT02088541_EG004,Cytidine,Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1,Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1,11,cytarabine
+NCT02101983,NCT02101983_EG001,Cytidine,Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1,Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1,11,cytarabine
+NCT02153788,NCT02153788_EG000,Temazepam,CN1C(=O)C(O)N=C(c2ccccc2)c2cc(Cl)ccc21,CN1C(=O)C(O)N=C(c2ccccc2)c2cc(Cl)ccc21,354,temazepam
+NCT02187809,NCT02187809_EG000,Clobazam,CN1C(=O)CC(=O)N(c2ccccc2)c2cc(Cl)ccc21,CN1C(=O)CC(=O)N(c2ccccc2)c2cc(Cl)ccc21,111,clobazam
+NCT02201251,NCT02201251_EG001,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT02259725,NCT02259725_EG000,Regorafenib,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,684,regorafenib
+NCT02280252,NCT02280252_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT02317991,NCT02317991_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT02355821,NCT02355821_EG001,Bisoprolol,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,69,bisoprolol
+NCT02370498,NCT02370498_EG001,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT02427607,NCT02427607_EG000,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT02476448,NCT02476448_EG003,Fluorescein,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,418,fluorescein
+NCT02554786,NCT02554786_EG002,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT02690935,NCT02690935_EG000,Loratadine,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,230,loratadine
+NCT02725268,NCT02725268_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT02726074,NCT02726074_EG000,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT02739594,NCT02739594_EG001,Zoledronic acid,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,499,zoledronic.acid
+NCT02788279,NCT02788279_EG000,Regorafenib,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,684,regorafenib
+NCT02850276,NCT02850276_EG000,Pyridostigmine,CN(C)C(=O)Oc1ccc[n+](C)c1,CN(C)C(=O)Oc1ccc[n+](C)c1,320,pyridostigmine
+NCT02892344,NCT02892344_EG001,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT02911324,NCT02911324_EG000,Nabilone,CCCCCCC(C)(C)c1cc(O)c2c(c1)OC(C)(C)C1CCC(=O)CC21,CCCCCCC(C)(C)c1cc(O)c2c(c1)OC(C)(C)C1CCC(=O)CC21,433,nabilone
+NCT03019588,NCT03019588_EG001,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT03096418,NCT03096418_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT03165955,NCT03165955_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT03188991,NCT03188991_EG001,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT03288129,NCT03288129_EG000,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT03312023,NCT03312023_EG002,Sofosbuvir,CC(C)OC(=O)C(C)NP(=O)(OCC1OC(n2ccc(=O)[nH]c2=O)C(C)(F)C1O)Oc1ccccc1,CC(C)OC(=O)C(C)NP(=O)(OCC1OC(n2ccc(=O)[nH]c2=O)C(C)(F)C1O)Oc1ccccc1,734,sofosbuvir
+NCT03371836,NCT03371836_EG000,Clobazam,CN1C(=O)CC(=O)N(c2ccccc2)c2cc(Cl)ccc21,CN1C(=O)CC(=O)N(c2ccccc2)c2cc(Cl)ccc21,111,clobazam
+NCT03436433,NCT03436433_EG001,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT03489304,NCT03489304_EG000,Zaleplon,CCN(C(C)=O)c1cccc(-c2ccnc3c(C#N)cnn23)c1,CCN(C(C)=O)c1cccc(-c2ccnc3c(C#N)cnn23)c1,397,zaleplon
+NCT03539432,NCT03539432_EG000,Gemfibrozil,Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,186,gemfibrozil
+NCT03555149,NCT03555149_EG000,Regorafenib,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,684,regorafenib
+NCT03653741,NCT03653741_EG000,Perampanel,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,671,perampanel
+NCT03655080,NCT03655080_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT03705793,NCT03705793_EG001,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT03850093,NCT03850093_EG001,Bisoprolol,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,69,bisoprolol
+NCT03861559,NCT03861559_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT03883386,NCT03883386_EG000,Loratadine,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,230,loratadine
+NCT03890731,NCT03890731_EG000,Regorafenib,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,684,regorafenib
+NCT04041609,NCT04041609_EG000,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT04041609,NCT04041609_EG001,Elocon,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(OC(=O)c1ccco1)C(=O)CCl,261,mometasone
+NCT04162795,NCT04162795_EG000,Loratadine,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1,230,loratadine
+NCT04221828,NCT04221828_EG000,Paclitaxel,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C(C)=C1C2(C)C,296,paclitaxel
+NCT04277936,NCT04277936_EG000,Levetiracetam,CCC(C(N)=O)N1CCCC1=O,CCC(C(N)=O)N1CCCC1=O,462,levetiracetam
+NCT04463615,NCT04463615_EG000,Leflunomide,Cc1oncc1C(=O)Nc1ccc(C(F)(F)F)cc1,Cc1oncc1C(=O)Nc1ccc(C(F)(F)F)cc1,225,leflunomide

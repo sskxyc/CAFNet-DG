@@ -1,0 +1,7 @@
+comparison,metric,n_drugs,mean_delta,wilcoxon_statistic,wilcoxon_p,wilcoxon_p_holm,holm_significant
+CAFNet-DG vs CAFNet-D,tie_aware_concordance,39,0.005555555555555553,56.0,0.8194191981899541,0.8194191981899541,False
+CAFNet-DG vs CAFNet-D,mean_score_difference,39,-0.09565160442493921,314.0,0.29561767606355716,0.5912353521271143,False
+CAFNet-DG vs CAFNet,tie_aware_concordance,39,-0.00854700854700856,192.5,0.810636316814491,0.810636316814491,False
+CAFNet-DG vs CAFNet,mean_score_difference,39,0.14347740663740885,314.0,0.29561767606355716,0.5912353521271143,False
+CAFNet-DG vs Global popularity,tie_aware_concordance,39,0.029487179487179487,321.0,0.6441749374541184,1.0,False
+CAFNet-DG vs Global popularity,mean_score_difference,39,0.006535013693138057,389.0,0.9944965508257155,1.0,False

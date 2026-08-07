@@ -27,6 +27,13 @@ code_snapshots/
 submission_flat/
 manuscript/
 *_submission_package.zip
+*.tex
+*.pdf
+*.docx
+cover_letter*
+*manuscript*.md
+*submission*.md
+docs/reproducibility/determinism_strict_smoke.txt
 *.synctex.gz
 *.aux
 *.bbl
@@ -48,6 +55,8 @@ analysis_outputs/**/*.aux
 analysis_outputs/**/*.log
 analysis_outputs/**/*.pdf
 analysis_outputs/**/*.txt
+!analysis_outputs/scientific_gap_resolution_20260807/*.md
+!analysis_outputs/scientific_gap_resolution_20260807/**/*.md
 analysis_outputs/cafnet_dg_external_validation/offsides_matched_control_scored_pairs.csv
 analysis_outputs/cafnet_dg_external_validation/offsides_matched_control_scored_pairs_with_prevalence_meta.csv
 analysis_outputs/reviewer_attribution_20260629/popularity_matched_negative_pairs.csv

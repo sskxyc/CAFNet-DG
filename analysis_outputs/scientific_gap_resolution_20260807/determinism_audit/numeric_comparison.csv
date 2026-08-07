@@ -1,0 +1,5 @@
+file,comparison,bitwise_equal_array,max_abs_difference,mean_abs_difference,n_different_cells
+blind_pred.csv,run1_vs_run2,False,6.232912302017212,0.9659583069991073,74550
+blind_pred.csv,run1_vs_run3,False,6.81255841255188,1.0306785806789778,74550
+blind_freq_pred.csv,run1_vs_run2,False,4.069053888320923,0.6632275023738623,74550
+blind_freq_pred.csv,run1_vs_run3,False,4.298345327377319,0.7300892157254005,74550

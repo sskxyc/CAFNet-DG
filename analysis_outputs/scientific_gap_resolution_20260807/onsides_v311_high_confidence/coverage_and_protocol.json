@@ -1,0 +1,13 @@
+{
+  "source": "OnSIDES v3.1.1 high_confidence.csv",
+  "release_date": "2026-04-22",
+  "release_asset_md5": "ab934e47108f2f53b3d7107405fa93d3",
+  "high_confidence_definition": "ingredient-effect pair observed across all four label sources (US, UK, EU, JP)",
+  "mapping": "exact normalized RxNorm ingredient and exact normalized MedDRA PT",
+  "mapped_pair_count_before_sider_exclusion": 264,
+  "non_sider_external_positive_count": 91,
+  "mapped_drug_count": 27,
+  "matched_control_row_count": 455,
+  "controls_per_positive": 5,
+  "interpretation": "independent multi-regulatory-label robustness validation; not incidence or causal validation"
+}

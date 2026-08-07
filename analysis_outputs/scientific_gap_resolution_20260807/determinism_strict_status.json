@@ -1,0 +1,5 @@
+﻿{
+    "strict_exit_code":  1,
+    "log":  "determinism_strict_smoke.log",
+    "strict_supported":  false
+}
