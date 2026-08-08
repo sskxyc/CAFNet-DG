@@ -32,6 +32,10 @@ conda env create -f environment.yml
 conda activate cafnet-dg
 ```
 
+### Windows checkout
+
+Clone the repository into a short local path (for example, `D:\\cfdg`). The release uses portable short names for result directories; enabling `git config --global core.longpaths true` is also recommended on Windows.
+
 ## Data
 
 The main benchmark files are:
