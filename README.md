@@ -63,6 +63,14 @@ analysis_outputs/unified_evaluation_20260811/
 
 `POST_LEAKAGE_CORRECTION_COMPARISON_SUMMARY.md` records which earlier comparison artifacts were invalidated and which corrected results may be used. The score-scale audit for the fixed residual fusion is provided in `analysis_outputs/fusion_scale_audit_20260814/`.
 
+The 10-fold unknown-entry-prior sensitivity analysis is in:
+
+```text
+analysis_outputs/eps_lambda_sensitivity_20260814/
+```
+
+It reports fold-level ranking and ordinal metrics for six alternatives, a same-code default rerun, and the historical reported run. None of the ranking metrics changed significantly after Holm correction. The dedicated frequency output was more sensitive: smaller `lambda0` values improved RMSE, MAE, and within-one accuracy. These post hoc results are a robustness audit, not a test-fold-based replacement of the locked reported model.
+
 The main CAFNet-DG cold-start prediction matrix is:
 
 ```text
@@ -95,6 +103,12 @@ python warm-scence.py --tenfold --epoch 100 --lr 0.0004
 ```
 
 Exact run settings and provenance are stored with the corresponding result folders and in `analysis_outputs/unified_evaluation_20260811/prediction_provenance_sha256.csv`.
+
+The unknown-entry-prior sensitivity sweep can be rerun from the repository root with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File experiments/run_eps_lambda_sensitivity_20260814.ps1 -Python python
+```
 
 ## Independent and External Validation
 

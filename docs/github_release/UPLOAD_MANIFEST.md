@@ -53,6 +53,7 @@ The authoritative comparison package and fixed-fusion scale audit are:
 ```text
 analysis_outputs/unified_evaluation_20260811/
 analysis_outputs/fusion_scale_audit_20260814/
+analysis_outputs/eps_lambda_sensitivity_20260814/
 ```
 
 The following directories retain supporting scientific-gap analyses:

@@ -14,7 +14,7 @@
 
 ## Current derived result package
 
-The authoritative post-leakage-correction comparison package is `analysis_outputs/unified_evaluation_20260811/`. It contains fold metrics, final summaries, paired tests, provenance hashes, and manuscript-ready table sources. The fixed-fusion score-scale audit is in `analysis_outputs/fusion_scale_audit_20260814/`.
+The authoritative post-leakage-correction comparison package is `analysis_outputs/unified_evaluation_20260811/`. It contains fold metrics, final summaries, paired tests, provenance hashes, and manuscript-ready table sources. The fixed-fusion score-scale audit is in `analysis_outputs/fusion_scale_audit_20260814/`, and the 10-fold unknown-entry-prior sensitivity audit is in `analysis_outputs/eps_lambda_sensitivity_20260814/`.
 
 | Scientific question | Public path |
 |---|---|
@@ -26,6 +26,7 @@ The authoritative post-leakage-correction comparison package is `analysis_output
 | FDA temporal signal validation | `analysis_outputs/scientific_gap_resolution_20260807/fda_aems_signal_validation/` |
 | Same-seed determinism audit | `analysis_outputs/scientific_gap_resolution_20260807/determinism_audit/` |
 | Rare-aware/end-to-end screen | `analysis_outputs/scientific_gap_resolution_20260807/rare_e2e_screen/` |
+| Unknown-entry target/weight sensitivity | `analysis_outputs/eps_lambda_sensitivity_20260814/` |
 
 Each result directory contains the summary used for interpretation together with lower-level fold/drug rows when available. External results retain mapping attrition and negative controls; they do not imply causal ADR confirmation or patient-specific incidence.
 

@@ -1,0 +1,28 @@
+{
+  "scenario": "drug-disjoint cold-start",
+  "folds": 10,
+  "epochs": 100,
+  "mask_file": "data/blind_mask_mat_750.mat",
+  "ordinal_contract": "nonzero 1-5 frequency labels only",
+  "metrics": [
+    "Spearman",
+    "RMSE",
+    "MAE",
+    "QWK",
+    "Within1"
+  ],
+  "ranking_metrics": [
+    "mAP",
+    "AUROC",
+    "AUPR",
+    "nDCG@10",
+    "P@1",
+    "P@15",
+    "R@15"
+  ],
+  "default_reported_source": "result_ICS\\10ORD8COLD2_CAFNetDecoupled",
+  "default_same_code_rerun_source": "result_ICS\\10SENS_BASE_CAFNetDecoupled",
+  "paired_test_reference": "lambda0=0.03, epsilon=0.50 (same-code rerun)",
+  "multiplicity": "Holm correction separately across five ordinal metrics for each setting",
+  "selection_rule": "sensitivity analysis only; no test-fold-based replacement of the reported model"
+}
