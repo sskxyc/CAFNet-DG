@@ -55,11 +55,13 @@ data/scaffold_mask_mat_750.mat
 
 ## Reproducing Reported Tables from Saved Results
 
-The fastest path is to use the saved prediction matrices and the curated current analysis package:
+The authoritative post-audit metrics, provenance hashes, paired tests, and manuscript-ready table sources are in:
 
 ```text
-analysis_outputs/scientific_gap_resolution_20260807/
+analysis_outputs/unified_evaluation_20260811/
 ```
+
+`POST_LEAKAGE_CORRECTION_COMPARISON_SUMMARY.md` records which earlier comparison artifacts were invalidated and which corrected results may be used. The score-scale audit for the fixed residual fusion is provided in `analysis_outputs/fusion_scale_audit_20260814/`.
 
 The main CAFNet-DG cold-start prediction matrix is:
 
@@ -72,9 +74,11 @@ Important baseline result folders used in the reported analyses include:
 ```text
 result_baselines_a3net_rdkit_cold_v1/cold/RF/
 result_baselines_a3net_rdkit_cold_v1/cold/XGB/
-result_baselines_hstrans_same_masks_epoch100/cold/HSTrans/
+result_baselines_hstrans_foldlocal_v3_compute_matched/
 result_baselines_popularity/cold/GLOBAL_POPULARITY/
 ```
+
+The HSTrans folder contains the fold-local, compute-matched rerun used in the final comparison. The earlier full-matrix preprocessing result is intentionally excluded because its feature construction did not respect fold boundaries.
 
 ## Training
 
@@ -90,7 +94,7 @@ Warm-start training example:
 python warm-scence.py --tenfold --epoch 100 --lr 0.0004
 ```
 
-Exact result-folder names encode the hyperparameters used for the reported runs.
+Exact run settings and provenance are stored with the corresponding result folders and in `analysis_outputs/unified_evaluation_20260811/prediction_provenance_sha256.csv`.
 
 ## Independent and External Validation
 

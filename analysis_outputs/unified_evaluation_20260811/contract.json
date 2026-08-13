@@ -1,0 +1,9 @@
+{
+  "ranking": "warm: heldout positives plus original-zero candidates; cold: all 994 ADRs",
+  "ordinal": "true nonzero heldout frequency labels only",
+  "excluded": [
+    "all legacy HSTrans outputs",
+    "legacy warm CAFNet/A3Net/CAFNet-D/CAFNet-DG/DSGAT outputs",
+    "outer-test-selected HMMF outputs"
+  ]
+}

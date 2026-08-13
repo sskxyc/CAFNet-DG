@@ -1,0 +1,23 @@
+{
+  "checkpoint_policy": "fixed_predeclared_epoch_budget",
+  "eligible_mask_sha256": "1cb7f327e4b6b43ba5255dc7cce19294d6715d3261a360d0a5504fea5f084e4b",
+  "eligible_zero_pairs": 638332,
+  "epochs": 20,
+  "fold": 5,
+  "learning_rate": 0.0001,
+  "negative_ratio": 1.0,
+  "prediction_rows": 75,
+  "sampled_training_pairs": 65236,
+  "scenario": "cold",
+  "seed": 47,
+  "side_masks_sha256": "924a403330cfa397d18d7010ea44acc31f75e94c38e78482f87a4bff0dd72090",
+  "side_token_threshold": 3.1238801615150864,
+  "side_tokens_sha256": "7573d32f2bacabdc1cb1085eff25d9bd86bc330bd3c8322846d0348e4ed42eb8",
+  "token_source": "fold_training_labels_only",
+  "train_matrix_sha256": "c75ee10f95f084556ed23f36ee0e1a9f5aecb7e85a77da1c94804fa909aa3d8a",
+  "train_rows": 675,
+  "training_pairs_sha256": "5aeea444f3bc134431dd27a231badfea9640eeded9741c018e615dbe05e9bb69",
+  "visible_positive_pairs": 32618,
+  "weight_decay": 0.01,
+  "weighted_token_total": 1942323.0
+}

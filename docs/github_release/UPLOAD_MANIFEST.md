@@ -36,7 +36,7 @@ Binary arrays are tracked through Git LFS according to `.gitattributes`.
 ```text
 result_ICS/
 result_baselines_a3net_rdkit_cold_v1/
-result_baselines_hstrans_same_masks_epoch100/
+result_baselines_hstrans_foldlocal_v3_compute_matched/
 result_baselines_popularity/
 ```
 
@@ -47,6 +47,15 @@ result_ICS/10cafnet_dg_ensemble06_cafnetd04_cafnet/blind_pred.csv
 ```
 
 ## Curated current analyses
+
+The authoritative comparison package and fixed-fusion scale audit are:
+
+```text
+analysis_outputs/unified_evaluation_20260811/
+analysis_outputs/fusion_scale_audit_20260814/
+```
+
+The following directories retain supporting scientific-gap analyses:
 
 ```text
 analysis_outputs/scientific_gap_resolution_20260807/ordinal_diagnostics/
@@ -77,8 +86,10 @@ The following must never be committed:
 ```text
 submission_flat/
 manuscript/
-*.tex
-*.pdf
+main.tex
+supplement*.tex
+manuscript*.pdf
+submission*.pdf
 *.docx
 cover_letter*
 author correspondence

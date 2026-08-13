@@ -9,10 +9,12 @@
 | CAFNet-D cold-start | `result_ICS/10cd3e100f10_CAFNetDecoupled_*/blind_pred.csv` |
 | CAFNet-DG fixed residual fusion | `result_ICS/10cafnet_dg_ensemble06_cafnetd04_cafnet/blind_pred.csv` |
 | RF/XGBoost baselines | `result_baselines_a3net_rdkit_cold_v1/` |
-| HSTrans baseline | `result_baselines_hstrans_same_masks_epoch100/` |
+| HSTrans baseline | `result_baselines_hstrans_foldlocal_v3_compute_matched/` |
 | Global-popularity diagnostic | `result_baselines_popularity/` |
 
 ## Current derived result package
+
+The authoritative post-leakage-correction comparison package is `analysis_outputs/unified_evaluation_20260811/`. It contains fold metrics, final summaries, paired tests, provenance hashes, and manuscript-ready table sources. The fixed-fusion score-scale audit is in `analysis_outputs/fusion_scale_audit_20260814/`.
 
 | Scientific question | Public path |
 |---|---|
@@ -34,6 +36,8 @@ The reproducibility directory contains code, data, and runtime manifests. Key pu
 ```text
 FACE33AB24060840FABF5F9A80CBA3E8F3C685F0407793FCD065E5F09E94ED31
 ```
+
+The removed `result_baselines_hstrans_same_masks_epoch100/` directory is not a valid final comparator because its frequency-derived features were not constructed independently within each outer fold.
 
 ## Publication-material exclusion
 

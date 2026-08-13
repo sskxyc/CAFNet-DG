@@ -1,0 +1,5 @@
+{
+  "cafnet_dg_warm": "0.6 * strict CAFNet-D + 0.4 * strict CAFNet; fixed before outer evaluation",
+  "hmmf": "extended regenerated-PubMedBERT comparison; fixed final epoch",
+  "all_groups_have_ten_folds": true
+}
