@@ -1006,7 +1006,7 @@ class CAFNetDecoupled(CAFNetV2):
         self.register_buffer("global_mean", torch.zeros(1, dtype=torch.float32))
 
     @staticmethod
-    def _drug_indices(data, device):
+    def _local_drug_indices(data, device):
         idx = []
         for item in data.index:
             if torch.is_tensor(item):
@@ -1016,6 +1016,12 @@ class CAFNetDecoupled(CAFNetV2):
             else:
                 idx.append(int(item))
         return torch.tensor(idx, dtype=torch.long, device=device)
+
+    @classmethod
+    def _drug_indices(cls, data, device):
+        if hasattr(data, "global_drug_id"):
+            return data.global_drug_id.to(device=device, dtype=torch.long).flatten()
+        return cls._local_drug_indices(data, device)
 
     def set_frequency_priors(self, side_popularity=None, global_mean=0.0):
         if side_popularity is not None:

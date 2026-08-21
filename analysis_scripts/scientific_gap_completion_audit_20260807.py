@@ -25,8 +25,8 @@ def relative(path: Path) -> str:
 def main() -> None:
     result: dict[str, dict] = {}
 
-    snapshot = ROOT / "docs" / "reproducibility" / "code_SHA256.csv"
-    runtime = ROOT / "docs" / "reproducibility" / "runtime_manifest.json"
+    snapshot = ROOT / "code_snapshots" / "scientific_gap_resolution_20260807" / "code_SHA256.csv"
+    runtime = BASE / "runtime_manifest.json"
     result["frozen_reproducibility_inputs"] = check(
         snapshot.exists() and runtime.exists(), relative(snapshot), "Code hashes and runtime manifest must both exist."
     )

@@ -1,0 +1,26 @@
+﻿{
+    "entry_script":  "warm-scence.py",
+    "python":  "python",
+    "description":  "CAFNet warm-start baseline (model 0).",
+    "args":  {
+                 "model":  0,
+                 "tenfold":  true,
+                 "epoch":  100,
+                 "lr":  0.0004,
+                 "lamb":  0.03,
+                 "eps":  0.5,
+                 "train_batch":  10,
+                 "knn":  10,
+                 "rank_score_mix":  0.3,
+                 "assoc_weight":  1,
+                 "freq_weight":  1,
+                 "rank_weight":  0.05,
+                 "result_prefix":  "cafnet_warm_seed_${seed}",
+                 "pop_weight":  0.1,
+                 "bias_weight":  1,
+                 "list_weight":  0.1,
+                 "assoc_base_weight":  1,
+                 "assoc_residual_weight":  1,
+                 "listnet_target":  "binary"
+             }
+}

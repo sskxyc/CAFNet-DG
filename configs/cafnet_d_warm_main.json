@@ -1,0 +1,27 @@
+﻿{
+    "entry_script":  "warm-scence.py",
+    "python":  "python",
+    "description":  "CAFNet-D warm-start setting (model 4).",
+    "args":  {
+                 "model":  4,
+                 "tenfold":  true,
+                 "epoch":  100,
+                 "lr":  0.0004,
+                 "lamb":  0.03,
+                 "eps":  0.5,
+                 "train_batch":  10,
+                 "knn":  10,
+                 "rank_score_mix":  0.3,
+                 "assoc_weight":  1,
+                 "freq_weight":  1,
+                 "rank_weight":  0.05,
+                 "listnet_target":  "binary",
+                 "save_full_pred":  true,
+                 "pop_weight":  0.1,
+                 "bias_weight":  1,
+                 "list_weight":  0.1,
+                 "result_prefix":  "cafnet_d_warm_seed_${seed}",
+                 "assoc_base_weight":  1,
+                 "assoc_residual_weight":  1
+             }
+}

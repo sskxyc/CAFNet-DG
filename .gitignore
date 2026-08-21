@@ -65,3 +65,18 @@ analysis_outputs/external_contrastive_experiments/offsides_external_sanity_score
 # OS artifacts
 Thumbs.db
 .DS_Store
+
+# Private manuscript and submission artifacts
+xiugaiyijian/
+submission_flat/
+MANUSCRIPT_ARTIFACT_MAP.md
+scripts/IJMS_EXPERIMENT_COMMANDS.md
+scripts/run_ijms_*.ps1
+scripts/build_*submission*.ps1
+scripts/update_*supplementary*package*.ps1
+logs/
+*.docx
+*.tex
+*.pdf
+*coverletter*
+*cover_letter*

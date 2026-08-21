@@ -196,19 +196,14 @@ def compute_metrics(y_true, y_pred):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--cafnet", required=True, help="Path to the CAFNet checkpoint")
-    parser.add_argument("--a3net", required=True, help="Path to the A3Net checkpoint")
-    parser.add_argument(
-        "--onsides-dir",
-        required=True,
-        help="Directory containing the prepared OnSIDES 3-to-1 evaluation files",
-    )
+    parser.add_argument("--cafnet", default=r"G:\studyPj\MIP-ASF\A-3Net-master-master\result_WS\10WS_CAFNet_knn=10_wd=0.001_epoch=100_lamb=0.03_lr0.0004_dim=200_eps=0.5_DF=False_PCA=False_not-FC=False_cosine_abl=CA_gate_new_loss=focal\checkpoints\10MF_CAFNet_epoch=100.model")
+    parser.add_argument("--a3net", default=r"G:\studyPj\MIP-ASF\A-3Net-master-master\result_WS\10WS_A3_Net_knn=10_wd=0.001_epoch=100_lamb=0.03_lr0.0004_dim=200_eps=0.5_DF=False_PCA=False_not-FC=False_cosine\checkpoints\10MF_A3_Net_epoch=100.model")
     parser.add_argument("--outdir", default="plots/independent_test")
     args = parser.parse_args()
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
     train_data_dir = os.path.join(base_dir, "data")
-    onsides_dir = os.path.abspath(args.onsides_dir)
+    onsides_dir = r"G:\studyPj\MIP-ASF\CAFNet-Onsides\data\3to1"
 
     train_smiles = read_smiles_list_csv(os.path.join(train_data_dir, "drug_SMILES_750.txt"))
     onsides_smiles_ordered = read_onsides_smiles_ordered(

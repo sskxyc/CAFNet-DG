@@ -12,7 +12,7 @@ from scipy.stats import spearmanr
 from sklearn.metrics import cohen_kappa_score, confusion_matrix
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(r"D:\CAFNet-master-master")
 LABELS = np.arange(1, 6, dtype=int)
 
 
