@@ -13,7 +13,7 @@ from rdkit import Chem, DataStructs
 from rdkit.Chem import AllChem
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(r"D:\CAFNet-master-master")
 OUT = ROOT / "analysis_outputs" / "scientific_gap_resolution_20260807" / "scaffold_cafnet_dg"
 OUT.mkdir(parents=True, exist_ok=True)
 RHO = 0.6

@@ -870,7 +870,7 @@ class CAFNet(torch.nn.Module):
 class CAFNetV2(CAFNet):
     """CAFNet with asymmetric association and frequency prediction heads."""
 
-    def __init__(self, *args, rank_score_mix=0.7, **kwargs):
+    def __init__(self, *args, rank_score_mix=0.3, **kwargs):
         super(CAFNetV2, self).__init__(*args, **kwargs)
         output_dim = kwargs.get("output_dim", 200)
         pair_dim = output_dim * 4 + 1
@@ -970,7 +970,7 @@ class CAFNetDecoupled(CAFNetV2):
         *args,
         num_drugs=750,
         num_sides=994,
-        pop_weight=0.0,
+        pop_weight=0.1,
         bias_weight=1.0,
         assoc_base_weight=1.0,
         assoc_residual_weight=1.0,
@@ -1006,7 +1006,7 @@ class CAFNetDecoupled(CAFNetV2):
         self.register_buffer("global_mean", torch.zeros(1, dtype=torch.float32))
 
     @staticmethod
-    def _drug_indices(data, device):
+    def _local_drug_indices(data, device):
         idx = []
         for item in data.index:
             if torch.is_tensor(item):
@@ -1016,6 +1016,12 @@ class CAFNetDecoupled(CAFNetV2):
             else:
                 idx.append(int(item))
         return torch.tensor(idx, dtype=torch.long, device=device)
+
+    @classmethod
+    def _drug_indices(cls, data, device):
+        if hasattr(data, "global_drug_id"):
+            return data.global_drug_id.to(device=device, dtype=torch.long).flatten()
+        return cls._local_drug_indices(data, device)
 
     def set_frequency_priors(self, side_popularity=None, global_mean=0.0):
         if side_popularity is not None:

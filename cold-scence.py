@@ -1,4 +1,4 @@
-# 十折交叉训练， 一次mask73行
+# 鍗佹姌浜ゅ弶璁粌锛?涓€娆ask73琛?import argparse
 import argparse
 import csv
 import datetime
@@ -205,14 +205,10 @@ def cafnet_v2_loss(model, output, label, lam, eps, assoc_weight, freq_weight, ra
 
 def generateMat():
     """
-    将矩阵按比例mask, 将被mask的部分分为10份，生成10份mask位置矩阵，保存在./data_ICS/processed/blind_mask_mat.mat
+    灏嗙煩闃垫寜姣斾緥mask, 灏嗚mask鐨勯儴鍒嗗垎涓?0浠斤紝鐢熸垚10浠絤ask浣嶇疆鐭╅樀锛屼繚瀛樺湪./data_ICS/processed/blind_mask_mat.mat
     :return:
     """
-    # 每次加载都把之前的数据删除
-    filenames = os.listdir('data')
-    for s in filenames:
-        os.remove('data' + s)
-
+    # 姣忔鍔犺浇閮芥妸涔嬪墠鐨勬暟鎹垹闄?    filenames = os.listdir('data')
     raw_frequency = scipy.io.loadmat(raw_file)
     raw = raw_frequency['R']
 
@@ -224,7 +220,8 @@ def generateMat():
     for i in range(10):
         if i == 9:
             x.append(index.tolist())
-        x.append(index[0:n].tolist())
+        else:
+            x.append(index[0:n].tolist())
         index = index[n:]
 
     dic = {}
@@ -237,12 +234,14 @@ def generateMat():
 
 def split_data(tenfold=False, mask_file=None, max_folds=None, drug_feature_file=None, dataset_suffix=''):
     """
-    读取 data/blind_mask_mat.mat，根据原始频率矩阵生成10份被mask的频率矩阵并yield
+    璇诲彇 data/blind_mask_mat.mat锛屾牴鎹師濮嬮鐜囩煩闃电敓鎴?0浠借mask鐨勯鐜囩煩闃靛苟yield
     :return:
     """
     raw_frequency = scipy.io.loadmat(raw_file)
     print('******************')
-    blind_mask_mat = scipy.io.loadmat(mask_file or blind_mask_mat_file)
+    selected_mask_file = mask_file or blind_mask_mat_file
+    blind_mask_mat = scipy.io.loadmat(selected_mask_file)
+    mask_cache_suffix = dataset_suffix + '_' + os.path.splitext(os.path.basename(selected_mask_file))[0]
     drug_dict, drug_smile = load_drug_smile(SMILES_file)
     print(len(drug_dict))
     drug_features = np.load(drug_feature_file).astype(np.float32) if drug_feature_file else None
@@ -261,6 +260,7 @@ def split_data(tenfold=False, mask_file=None, max_folds=None, drug_feature_file=
 
         index = np.asarray(np.where(mask[:, 0].flatten() == 0)[0]).tolist()
         test_indices = list(index)
+        train_indices = [i for i in range(raw.shape[0]) if i not in set(test_indices)]
 
         frequencyMat = np.delete(raw, index, axis=0)
         train_drug_features = np.delete(drug_features, test_indices, axis=0) if drug_features is not None else None
@@ -281,12 +281,14 @@ def split_data(tenfold=False, mask_file=None, max_folds=None, drug_feature_file=
         train_simle_graph = convert2graph(train_smiles)
         test_simle_graph = convert2graph(test_smiles)
 
-        train_data = myDataset(root='data_ICS', dataset=dataset + dataset_suffix + '_blind_train' + str(idx),
+        train_data = myDataset(root='data_ICS', dataset=dataset + mask_cache_suffix + '_globalid_v2_blind_train' + str(idx),
                                drug_simles=train_smiles, frequencyMat=frequencyMat,
-                               simle_graph=train_simle_graph, drug_features=train_drug_features)
-        test_data = myDataset(root='data_ICS', dataset=dataset + dataset_suffix + '_blind_test' + str(idx),
+                               simle_graph=train_simle_graph, drug_features=train_drug_features,
+                               drug_indices=train_indices)
+        test_data = myDataset(root='data_ICS', dataset=dataset + mask_cache_suffix + '_globalid_v2_blind_test' + str(idx),
                               drug_simles=test_smiles, frequencyMat=test_label,
-                              simle_graph=test_simle_graph, drug_features=test_drug_features)
+                              simle_graph=test_simle_graph, drug_features=test_drug_features,
+                              drug_indices=test_indices)
         yield idx, frequencyMat, mask
 
         if not tenfold and idx == 0:
@@ -295,7 +297,7 @@ def split_data(tenfold=False, mask_file=None, max_folds=None, drug_feature_file=
 
 # training function at each epoch
 def train(model, device, train_loader, optimizer, lamb, epoch, log_interval, sideEffectsGraph, raw, id, DF, not_FC, eps,
-          dual_task=False, assoc_weight=1.0, freq_weight=0.2, rank_weight=0.1, bpr_samples=32, list_weight=0.0,
+          dual_task=False, assoc_weight=1.0, freq_weight=1.0, rank_weight=0.05, bpr_samples=32, list_weight=0.1,
           side_weights=None, matched_bpr=False, side_prevalence=None, prevalence_bins=10,
           ext_drug_ids=None, ext_pos_idx=None, ext_neg_idx=None, external_weight=0.0,
           external_samples_per_drug=64, external_target="rank"):
@@ -315,7 +317,7 @@ def train(model, device, train_loader, optimizer, lamb, epoch, log_interval, sid
         pred = out.to(device)
 
         if dual_task:
-            batch_drug_ids = model._drug_indices(data, pred.device) if hasattr(model, "_drug_indices") else None
+            batch_drug_ids = model._local_drug_indices(data, pred.device) if hasattr(model, "_local_drug_indices") else None
             loss = cafnet_v2_loss(
                 model, pred, raw_label, lamb, eps,
                 assoc_weight=assoc_weight,
@@ -358,7 +360,7 @@ def predict(model, device, loader, sideEffectsGraph, DF, not_FC):
     model.eval()
     torch.cuda.manual_seed(42)
     print('Make prediction for {} samples...'.format(len(loader.dataset)))
-    # 对于tensor的计算操作，默认是要进行计算图的构建的，在这种情况下，可以使用with torch.no_grad():来强制之后的内容不进行计算图构建
+    # 瀵逛簬tensor鐨勮绠楁搷浣滐紝榛樿鏄杩涜璁＄畻鍥剧殑鏋勫缓鐨勶紝鍦ㄨ繖绉嶆儏鍐典笅锛屽彲浠ヤ娇鐢╳ith torch.no_grad():鏉ュ己鍒朵箣鍚庣殑鍐呭涓嶈繘琛岃绠楀浘鏋勫缓
     total_preds = torch.Tensor()
     total_labels = torch.Tensor()
     with torch.no_grad():
@@ -381,24 +383,29 @@ def predict(model, device, loader, sideEffectsGraph, DF, not_FC):
 
 def evaluate(model, device, loader, sideEffectsGraph, DF, not_FC, result_folder, id):
     total_preds = torch.Tensor()
+    total_freq_preds = torch.Tensor()
     total_assoc_preds = torch.Tensor()
     total_label = torch.Tensor()
     singleDrug_auc = []
     singleDrug_aupr = []
     model.eval()
     torch.cuda.manual_seed(42)
-    # 对于tensor的计算操作，默认是要进行计算图的构建的，在这种情况下，可以使用with torch.no_grad():来强制之后的内容不进行计算图构建
+    # 瀵逛簬tensor鐨勮绠楁搷浣滐紝榛樿鏄杩涜璁＄畻鍥剧殑鏋勫缓鐨勶紝鍦ㄨ繖绉嶆儏鍐典笅锛屽彲浠ヤ娇鐢╳ith torch.no_grad():鏉ュ己鍒朵箣鍚庣殑鍐呭涓嶈繘琛岃绠楀浘鏋勫缓
     with torch.no_grad():
         sideEffectsGraph = sideEffectsGraph.to(device)
         for data in loader:
-            # 查找被mask的数据
             label = data.y
             data = data.to(device)
             output, _, _ = model(data, sideEffectsGraph, DF, not_FC)
             pred = output.cpu()
+            freq_pred = getattr(model, "last_freq_pred", None)
+            if freq_pred is None:
+                freq_pred = output
+            freq_pred = freq_pred.detach().cpu()
             assoc_pred = model.last_assoc_logits.detach().cpu() if model.__class__.__name__ == "CAFNetDecoupled" else pred
 
             total_preds = torch.cat((total_preds, pred), 0)
+            total_freq_preds = torch.cat((total_freq_preds, freq_pred), 0)
             total_assoc_preds = torch.cat((total_assoc_preds, assoc_pred), 0)
             total_label = torch.cat((total_label, label), 0)
             # test batch size must be 1
@@ -409,16 +416,20 @@ def evaluate(model, device, loader, sideEffectsGraph, DF, not_FC, result_folder,
             singleDrug_aupr.append(average_precision_score(label, pred))
     if id == 1:
         pred_result = pd.read_csv(result_folder + '/blind_pred.csv', header=0, index_col=None).values
+        freq_pred_result = pd.read_csv(result_folder + '/blind_freq_pred.csv', header=0, index_col=None).values
         raw_result = pd.read_csv(result_folder + '/blind_raw.csv', header=0, index_col=None).values
     else:
         pred_result = pd.read_csv(result_folder + '/blind_pred.csv', header=None, index_col=None).values
+        freq_pred_result = pd.read_csv(result_folder + '/blind_freq_pred.csv', header=None, index_col=None).values
         raw_result = pd.read_csv(result_folder + '/blind_raw.csv', header=None, index_col=None).values
     print(pred_result.shape)
 
 
     pred_result = pd.DataFrame(np.vstack((pred_result, total_preds.numpy())))
+    freq_pred_result = pd.DataFrame(np.vstack((freq_pred_result, total_freq_preds.numpy())))
     raw_result = pd.DataFrame(np.vstack((raw_result, total_label.numpy())))
     pred_result.to_csv(result_folder + '/blind_pred.csv', header=False, index=False)
+    freq_pred_result.to_csv(result_folder + '/blind_freq_pred.csv', header=False, index=False)
     raw_result.to_csv(result_folder + '/blind_raw.csv', header=False, index=False)
 
 
@@ -549,16 +560,16 @@ def load_side_node_features(side_feature_file=None, side_feature_concat=False):
 def main(modeling, metric, train_batch, lr, num_epoch, knn, weight_decay, lamb, log_interval, cuda_name, frequencyMat,
          id, mask, result_folder, save_model, DF, not_FC, output_dim, eps, pca,
          use_cross_attn=True, fusion_mode="gate", gate_mode="new", fusion_alpha=0.5, gat_dropout=0.0,
-         rank_score_mix=0.7, dual_task=False, assoc_weight=1.0, freq_weight=0.2, rank_weight=0.1,
+         rank_score_mix=0.3, dual_task=False, assoc_weight=1.0, freq_weight=1.0, rank_weight=0.05,
          bpr_samples=32, seed=42, side_feature_file=None, side_feature_concat=False,
          drug_feature_file=None, evidence_dropout=0.1, dataset_suffix='',
-         pop_weight=0.0, bias_weight=1.0, list_weight=0.0,
+         pop_weight=0.1, bias_weight=1.0, list_weight=0.1,
          assoc_base_weight=1.0, assoc_residual_weight=1.0,
          prevalence_debias=False, debias_gamma=1.0, rare_pos_boost=1.0,
          matched_bpr=False, prevalence_bins=10, external_pairs_dir=None,
          external_weight=0.0, external_samples_per_drug=64, external_target="rank"):
     print('\n=======================================================================================')
-    print('\n第 {} 次训练：\n'.format(id))
+    print('\n[Fold {}]'.format(id))
     print('model: ', modeling.__name__)
     print('Learning rate: ', lr)
     print('Epochs: ', num_epoch)
@@ -624,13 +635,13 @@ def main(modeling, metric, train_batch, lr, num_epoch, knn, weight_decay, lamb, 
         print('Missing raw FrequencyMat, exit!!!')
         exit(1)
 
-    # 生成副作用的graph信息
+    # 鐢熸垚鍓綔鐢ㄧ殑graph淇℃伅
     train_frequency_for_weights = frequencyMat.copy()
     frequencyMat = frequencyMat.T
     if pca:
         pca_ = PCA(n_components=256)
         similarity_pca = pca_.fit_transform(frequencyMat)
-        print('PCA 信息保留比例： ')
+        print('PCA 淇℃伅淇濈暀姣斾緥锛?')
         print(sum(pca_.explained_variance_ratio_))
         A = kneighbors_graph(similarity_pca, knn, mode='connectivity', metric=metric, include_self=False)
     else:
@@ -653,9 +664,9 @@ def main(modeling, metric, train_batch, lr, num_epoch, knn, weight_decay, lamb, 
     raw = raw_frequency['R']
 
     # make data_WS Pytorch mini-batch processing ready
-    train_data = myDataset(root='data_ICS', dataset=dataset + dataset_suffix + '_blind_train' + str(id - 1))
+    train_data = myDataset(root='data_ICS', dataset=dataset + dataset_suffix + '_globalid_v2_blind_train' + str(id - 1))
     train_loader = DataLoader(train_data, batch_size=train_batch, shuffle=True)
-    test_data = myDataset(root='data_ICS', dataset=dataset + dataset_suffix + '_blind_test' + str(id - 1))
+    test_data = myDataset(root='data_ICS', dataset=dataset + dataset_suffix + '_globalid_v2_blind_test' + str(id - 1))
     test_loader = DataLoader(test_data, batch_size=1, shuffle=False)
     side_weights = None
     side_prevalence = None
@@ -744,7 +755,6 @@ def main(modeling, metric, train_batch, lr, num_epoch, knn, weight_decay, lamb, 
                 writer = csv.writer(f)
                 writer.writerow([epoch + 1, train_loss, auc_all, aupr_all, drugAUC, drugAUPR])
 
-    torch.save(model, "model_cold.pt")
     test_labels, test_preds = predict(model=model, device=device, loader=test_loader,
                                       sideEffectsGraph=sideEffectsGraph, DF=DF, not_FC=not_FC)
     ret_test = [mse(test_labels, test_preds), pearson(test_labels, test_preds), rmse(test_labels, test_preds),
@@ -789,7 +799,7 @@ def main(modeling, metric, train_batch, lr, num_epoch, knn, weight_decay, lamb, 
 if __name__ == '__main__':
 
     total_start = datetime.datetime.now()
-    # 参数定义
+    # 鍙傛暟瀹氫箟
     parser = argparse.ArgumentParser(description='train model')
     parser.add_argument('--model', type=int, required=False, default=0,
                         help='0:CAFNet, 1:A3Net, 2:CAFNetV2, 3:CAFNetDecoupled')
@@ -798,7 +808,7 @@ if __name__ == '__main__':
     parser.add_argument('--lr', type=float, required=False, default=1e-4, help='Learning rate')
     parser.add_argument('--wd', type=float, required=False, default=0.001, help='weight_decay')
     parser.add_argument('--lamb', type=float, required=False, default=0.03, help='LAMBDA')
-    parser.add_argument('--epoch', type=int, required=False, default=3000, help='Number of epoch')
+    parser.add_argument('--epoch', type=int, required=False, default=100, help='Number of epochs')
     parser.add_argument('--knn', type=int, required=False, default=5, help='Number of KNN')
     parser.add_argument('--log_interval', type=int, required=False, default=20, help='Log interval')
     parser.add_argument('--cuda_name', type=str, required=False, default='cuda:0', help='Cuda')
@@ -816,6 +826,8 @@ if __name__ == '__main__':
                         help='Result prefix used in output folder names, e.g. ICS or scaffold')
     parser.add_argument('--short_result_name', action='store_true', default=False,
                         help='Use a compact result folder name for long ablation parameter sets')
+    parser.add_argument('--overwrite', action='store_true', default=False,
+                        help='Explicitly allow replacement of an existing result directory')
     parser.add_argument('--max_folds', type=int, required=False, default=10,
                         help='Maximum number of folds to run, useful for smoke tests')
     parser.add_argument('--no_cross_attn', action='store_true', default=False,
@@ -828,15 +840,15 @@ if __name__ == '__main__':
                         help='CAFNet fixed-fusion alpha')
     parser.add_argument('--gat_dropout', type=float, required=False, default=0.0,
                         help='CAFNet GATConv attention dropout for experimental runs')
-    parser.add_argument('--rank_score_mix', type=float, required=False, default=0.7,
+    parser.add_argument('--rank_score_mix', type=float, required=False, default=0.3,
                         help='CAFNetV2 final score mix: association weight in [0, 1]')
     parser.add_argument('--dual_task', action='store_true', default=False,
                         help='Use CAFNetV2 asymmetric association/frequency/ranking loss')
     parser.add_argument('--assoc_weight', type=float, required=False, default=1.0,
                         help='CAFNetV2 association BCE loss weight')
-    parser.add_argument('--freq_weight', type=float, required=False, default=0.2,
+    parser.add_argument('--freq_weight', type=float, required=False, default=1.0,
                         help='CAFNetV2 frequency Huber loss weight')
-    parser.add_argument('--rank_weight', type=float, required=False, default=0.1,
+    parser.add_argument('--rank_weight', type=float, required=False, default=0.05,
                         help='CAFNetV2 BPR ranking loss weight')
     parser.add_argument('--bpr_samples', type=int, required=False, default=32,
                         help='CAFNetV2 positive/negative samples per row for BPR')
@@ -852,9 +864,9 @@ if __name__ == '__main__':
                         help='Short tag for dataset/result names when drug_feature_file is used')
     parser.add_argument('--evidence_dropout', type=float, required=False, default=0.1,
                         help='Dropout in the drug evidence encoder')
-    parser.add_argument('--pop_weight', type=float, required=False, default=0.0)
+    parser.add_argument('--pop_weight', type=float, required=False, default=0.1)
     parser.add_argument('--bias_weight', type=float, required=False, default=1.0)
-    parser.add_argument('--list_weight', type=float, required=False, default=0.0)
+    parser.add_argument('--list_weight', type=float, required=False, default=0.1)
     parser.add_argument('--assoc_base_weight', type=float, required=False, default=1.0)
     parser.add_argument('--assoc_residual_weight', type=float, required=False, default=1.0)
     parser.add_argument('--prevalence_debias', action='store_true', default=False,
@@ -898,6 +910,7 @@ if __name__ == '__main__':
     mask_file = args.mask_file
     result_prefix = args.result_prefix
     short_result_name = args.short_result_name
+    overwrite = args.overwrite
     max_folds = args.max_folds
     use_cross_attn = not args.no_cross_attn
     fusion_mode = args.fusion_mode
@@ -933,8 +946,7 @@ if __name__ == '__main__':
 
     processed_mask_mat = mask_file
     if not os.path.isfile(processed_mask_mat):
-        print('Missing data_WS files, generating......')
-        generateMat()
+        raise FileNotFoundError('Required fixed cold-start mask file is missing: {}'.format(processed_mask_mat))
 
     result_folder = './result_ICS/'
     cafnet_tag = ''
@@ -964,6 +976,7 @@ if __name__ == '__main__':
     if drug_feature_file:
         dataset_suffix = '_' + drug_feature_tag
         cafnet_tag += '_drugfeat=' + drug_feature_tag + '_edrop=' + str(evidence_dropout)
+    cache_suffix = dataset_suffix + '_' + os.path.splitext(os.path.basename(mask_file))[0]
 
     if short_result_name:
         result_folder += ('10' if tenfold else '1') + result_prefix + '_' + modeling.__name__
@@ -980,7 +993,11 @@ if __name__ == '__main__':
     if not isExist:
         os.makedirs(result_folder)
     else:
-        # 清空原文件 添加表头
+        # 娓呯┖鍘熸枃浠?娣诲姞琛ㄥご
+        if not overwrite:
+            raise FileExistsError(
+                'Refusing to replace existing result directory without --overwrite: {}'.format(result_folder)
+            )
         shutil.rmtree(result_folder)
         os.makedirs(result_folder)
 
@@ -989,6 +1006,9 @@ if __name__ == '__main__':
     pred_result = result_folder + '/blind_pred.csv'
     pred_ = pd.DataFrame(columns=[i for i in range(raw.shape[1])])
     pred_.to_csv(pred_result, header=True, index=False)
+    freq_pred_result = result_folder + '/blind_freq_pred.csv'
+    freq_pred_ = pd.DataFrame(columns=[i for i in range(raw.shape[1])])
+    freq_pred_.to_csv(freq_pred_result, header=True, index=False)
     raw_result = result_folder + '/blind_raw.csv'
     raw_ = pd.DataFrame(columns=[i for i in range(raw.shape[1])])
     raw_.to_csv(raw_result, header=True, index=False)
@@ -1011,35 +1031,38 @@ if __name__ == '__main__':
              frequencyMat, id + 1, mask, result_folder, save_model, DF, not_FC, output_dim, eps, pca,
              use_cross_attn, fusion_mode, gate_mode, fusion_alpha, gat_dropout,
              rank_score_mix, dual_task, assoc_weight, freq_weight, rank_weight, bpr_samples, seed,
-             side_feature_file, side_feature_concat, drug_feature_file, evidence_dropout, dataset_suffix,
+             side_feature_file, side_feature_concat, drug_feature_file, evidence_dropout, cache_suffix,
              pop_weight, bias_weight, list_weight,
              assoc_base_weight, assoc_residual_weight,
              prevalence_debias, debias_gamma, rare_pos_boost,
              matched_bpr, prevalence_bins,
              external_pairs_dir, external_weight, external_samples_per_drug, external_target)
         end = datetime.datetime.now()
-        print('本次运行时间：{}\t'.format(end - start))
+        print('run time: {}\t'.format(end - start))
+        data = pd.read_csv(result_log)
+        metric_cols = ['pearson', 'rMSE', 'spearman', 'MAE', 'auc_all', 'aupr_all', 'drugAUC', 'drugAUPR', 'MAP', 'nDCG',
+                       'P1', 'P5', 'P10', 'P15', 'R1', 'R5', 'R10', 'R15']
+        fold_rows = data.copy()
+        for col in metric_cols:
+            fold_rows[col] = pd.to_numeric(fold_rows[col], errors='coerce')
+        fold_rows = fold_rows.dropna(subset=['pearson'])
+        L = len(fold_rows)
+        if L == 0:
+            raise RuntimeError('No numeric metric rows found in {} for averaging.'.format(result_log))
+        avg = fold_rows[metric_cols].mean(axis=0).tolist()
+        print('\n\tavg pearson: {:.4f}\tavg rMSE: {:.4f}\tavg spearman: {:.4f}\tavg MAE: {:.4f}'.format(avg[0], avg[1],
+                                                                                                     avg[2], avg[3]))
+        print('\tavg all AUC: {:.4f}\tavg all AUPR: {:.4f}\tavg drug AUC: {:.4f}\tavg drug AUPR: {:.4f}'.format(avg[4],
+                                                                                                                avg[5],
+                                                                                                                avg[6],
+                                                                                                                avg[7]))
+        print('\tavg MAP: {:.4f}\tavg nDCG@10: {:.4f}'.format(avg[8], avg[9]))
+        print('\tavg P@1: {:.4f}\tavg P@5: {:.4f}\tavg P@10: {:.4f}\tavg P@15: {:.4f}'.format(avg[10], avg[11], avg[12],
+                                                                                                     avg[13]))
+        print('\tavg R@1: {:.4f}\tavg R@5: {:.4f}\tavg R@10: {:.4f}\tavg R@15: {:.4f}'.format(avg[14], avg[15], avg[16],
+                                                                                                     avg[17]))
 
-    data = pd.read_csv(result_log)
-    L = len(data.rMSE)
-    avg = [sum(data.pearson) / L, sum(data.rMSE) / L, sum(data.spearman) / L, sum(data.MAE) / L, sum(data.auc_all) / L,
-           sum(data.aupr_all) / L, sum(data.drugAUC) / L, sum(data.drugAUPR) / L, sum(data.MAP) / L, sum(data.nDCG) / L,
-           sum(data.P1) / L, sum(data.P5) / L, sum(data.P10) / L, sum(data.P15) / L, sum(data.R1) / L, sum(data.R5) / L,
-           sum(data.R10) / L, sum(data.R15) / L]
-    print('\n\tavg pearson: {:.4f}\tavg rMSE: {:.4f}\tavg spearman: {:.4f}\tavg MAE: {:.4f}'.format(avg[0], avg[1],
-                                                                                                    avg[2], avg[3]))
-    print('\tavg all AUC: {:.4f}\tavg all AUPR: {:.4f}\tavg drug AUC: {:.4f}\tavg drug AUPR: {:.4f}'.format(avg[4],
-                                                                                                            avg[5],
-                                                                                                            avg[6],
-                                                                                                            avg[7]))
-    print('\tavg MAP: {:.4f}\tavg nDCG@10: {:.4f}'.format(avg[8], avg[9]))
-    print('\tavg P@1: {:.4f}\tavg P@5: {:.4f}\tavg P@10: {:.4f}\tavg P@15: {:.4f}'.format(avg[10], avg[11], avg[12],
-                                                                                          avg[13]))
-    print('\tavg R@1: {:.4f}\tavg R@5: {:.4f}\tavg R@10: {:.4f}\tavg R@15: {:.4f}'.format(avg[14], avg[15], avg[16],
-                                                                                          avg[17]))
-    with open(result_log, 'a', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(['avg'])
-        writer.writerow(avg)
-    total_end = datetime.datetime.now()
-    print('总体运行时间：{}\t'.format(total_end - total_start))
+        with open(result_log, 'a', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(['avg'])
+            writer.writerow(avg)

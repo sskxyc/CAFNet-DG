@@ -15,7 +15,7 @@ class myDataset(InMemoryDataset):
     def __init__(self, root='/data_WS', dataset='drug_sideEffect_data',
                  drug_simles=None, frequencyMat=None,
                  transform=None, pre_transform=None, simle_graph=None, saliency_map=False,
-                 drug_features=None):
+                 drug_features=None, drug_indices=None):
 
         # root is required for save preprocessed data_WS, default is '/data_WS'
         super(myDataset, self).__init__(root, transform, pre_transform)
@@ -31,7 +31,10 @@ class myDataset(InMemoryDataset):
             self.data, self.slices = torch.load(self.processed_paths[0])
         else:
             print('Pre-processed data {} not found, doing pre_processing...'.format(self.processed_paths[0]))
-            self.process(drug_simles, frequencyMat, simle_graph, drug_features=drug_features)
+            self.process(
+                drug_simles, frequencyMat, simle_graph,
+                drug_features=drug_features, drug_indices=drug_indices
+            )
             self.data, self.slices = torch.load(self.processed_paths[0])
 
     @property
@@ -59,10 +62,12 @@ class myDataset(InMemoryDataset):
     # feature - list of SMILES, XT: list of encoded target (categorical or one-hot),
     # Y: list of labels (i.e. affinity)
     # Return: PyTorch-Geometric format processed data_WS
-    def process(self, drug_silmes, frequencyMat, simle_graph, drug_features=None):
+    def process(self, drug_silmes, frequencyMat, simle_graph, drug_features=None, drug_indices=None):
         assert (len(drug_silmes) == len(frequencyMat)), "The two lists must be the same L!"
         if drug_features is not None:
             assert (len(drug_silmes) == len(drug_features)), "Drug feature rows must match drug list length!"
+        if drug_indices is not None:
+            assert (len(drug_silmes) == len(drug_indices)), "Drug indices must match drug list length!"
         data_list = []
         data_len = len(drug_silmes)
         print(data_len)
@@ -82,6 +87,8 @@ class myDataset(InMemoryDataset):
                                 y=torch.FloatTensor([labels]))
             if drug_features is not None:
                 GCNData.__setitem__('drug_evidence', torch.FloatTensor(drug_features[i]).view(1, -1))
+            if drug_indices is not None:
+                GCNData.__setitem__('global_drug_id', torch.LongTensor([int(drug_indices[i])]))
             GCNData.__setitem__('edge_type', torch.IntTensor(edge_type * 2 ).flatten())
             # 记录此特征矩阵x的行开始的坐标，为0；
             # 利用DataLoader读取时，返回一个(1 * batch_size)维度的tensor，代表共batch_size个x,每个x的行从x_index[i]开始
