@@ -1,4 +1,4 @@
-﻿{
+{
     "entry_script":  "cold-scence.py",
     "python":  "python",
     "description":  "CAFNet cold-start baseline (model 0).",

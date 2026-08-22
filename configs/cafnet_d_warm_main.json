@@ -1,4 +1,4 @@
-﻿{
+{
     "entry_script":  "warm-scence.py",
     "python":  "python",
     "description":  "CAFNet-D warm-start setting (model 4).",

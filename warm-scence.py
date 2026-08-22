@@ -1,4 +1,4 @@
-﻿import os
+import os
 
 import argparse
 import csv
@@ -288,8 +288,8 @@ def split_data(tenfold=False, max_folds=10, start_fold=0):
 
 # training function at each epoch
 def train(model, device, train_loader, optimizer, lamb, epoch, log_interval, sideEffectsGraph, raw, id, DF, not_FC,
-          eps, dual_task=False, assoc_weight=1.0, freq_weight=0.2, rank_weight=0.1, bpr_samples=32,
-          ordinal_weight=0.0, list_weight=0.0, train_entry_mask=None,
+          eps, dual_task=False, assoc_weight=1.0, freq_weight=1.0, rank_weight=0.05, bpr_samples=32,
+          ordinal_weight=0.0, list_weight=0.1, train_entry_mask=None,
           listnet_target="binary"):
     """
 
@@ -614,9 +614,9 @@ class EarlyStopping:
 def main(modeling, metric, train_batch, lr, num_epoch, knn, weight_decay, lamb, log_interval, cuda_name, frequencyMat,
          id, mask, result_folder, save_model, DF, not_FC, output_dim, eps, pca,
          use_cross_attn, fusion_mode, gate_mode, fusion_alpha, loss_type, loss_gamma, loss_alpha, ablation_tag,
-         rank_score_mix=0.7, dual_task=False, assoc_weight=1.0, freq_weight=0.2, rank_weight=0.1,
+         rank_score_mix=0.3, dual_task=False, assoc_weight=1.0, freq_weight=1.0, rank_weight=0.05,
          bpr_samples=32, seed=42, side_feature_file=None, side_feature_concat=False, calibration_mode="none",
-         ordinal_weight=0.0, ordinal_score_mix=0.2, pop_weight=0.0, bias_weight=1.0, list_weight=0.0,
+         ordinal_weight=0.0, ordinal_score_mix=0.2, pop_weight=0.1, bias_weight=1.0, list_weight=0.1,
          assoc_base_weight=1.0, assoc_residual_weight=1.0, save_full_pred=False,
          strict_train_mask=True, monitor_outer_test=False, listnet_target="binary"):
     print('\n=======================================================================================')
@@ -885,11 +885,11 @@ if __name__ == '__main__':
     parser.add_argument('--max_folds', type=int, required=False, default=10)
     parser.add_argument('--start_fold', type=int, required=False, default=0,
                         help='zero-based fold index for resuming an existing result directory')
-    parser.add_argument('--rank_score_mix', type=float, required=False, default=0.7)
+    parser.add_argument('--rank_score_mix', type=float, required=False, default=0.3)
     parser.add_argument('--dual_task', action='store_true', default=False)
     parser.add_argument('--assoc_weight', type=float, required=False, default=1.0)
-    parser.add_argument('--freq_weight', type=float, required=False, default=0.2)
-    parser.add_argument('--rank_weight', type=float, required=False, default=0.1)
+    parser.add_argument('--freq_weight', type=float, required=False, default=1.0)
+    parser.add_argument('--rank_weight', type=float, required=False, default=0.05)
     parser.add_argument('--bpr_samples', type=int, required=False, default=32)
     parser.add_argument('--seed', type=int, required=False, default=42)
     parser.add_argument('--side_feature_file', type=str, required=False, default=None)
@@ -898,9 +898,9 @@ if __name__ == '__main__':
                         choices=['none', 'regression_prior', 'rank_pop', 'hybrid'])
     parser.add_argument('--ordinal_weight', type=float, required=False, default=0.0)
     parser.add_argument('--ordinal_score_mix', type=float, required=False, default=0.2)
-    parser.add_argument('--pop_weight', type=float, required=False, default=0.0)
+    parser.add_argument('--pop_weight', type=float, required=False, default=0.1)
     parser.add_argument('--bias_weight', type=float, required=False, default=1.0)
-    parser.add_argument('--list_weight', type=float, required=False, default=0.0)
+    parser.add_argument('--list_weight', type=float, required=False, default=0.1)
     parser.add_argument('--assoc_base_weight', type=float, required=False, default=1.0)
     parser.add_argument('--assoc_residual_weight', type=float, required=False, default=1.0)
     parser.add_argument('--save_full_pred', action='store_true', default=False,

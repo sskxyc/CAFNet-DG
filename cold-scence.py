@@ -297,7 +297,7 @@ def split_data(tenfold=False, mask_file=None, max_folds=None, drug_feature_file=
 
 # training function at each epoch
 def train(model, device, train_loader, optimizer, lamb, epoch, log_interval, sideEffectsGraph, raw, id, DF, not_FC, eps,
-          dual_task=False, assoc_weight=1.0, freq_weight=0.2, rank_weight=0.1, bpr_samples=32, list_weight=0.0,
+          dual_task=False, assoc_weight=1.0, freq_weight=1.0, rank_weight=0.05, bpr_samples=32, list_weight=0.1,
           side_weights=None, matched_bpr=False, side_prevalence=None, prevalence_bins=10,
           ext_drug_ids=None, ext_pos_idx=None, ext_neg_idx=None, external_weight=0.0,
           external_samples_per_drug=64, external_target="rank"):
@@ -560,10 +560,10 @@ def load_side_node_features(side_feature_file=None, side_feature_concat=False):
 def main(modeling, metric, train_batch, lr, num_epoch, knn, weight_decay, lamb, log_interval, cuda_name, frequencyMat,
          id, mask, result_folder, save_model, DF, not_FC, output_dim, eps, pca,
          use_cross_attn=True, fusion_mode="gate", gate_mode="new", fusion_alpha=0.5, gat_dropout=0.0,
-         rank_score_mix=0.7, dual_task=False, assoc_weight=1.0, freq_weight=0.2, rank_weight=0.1,
+         rank_score_mix=0.3, dual_task=False, assoc_weight=1.0, freq_weight=1.0, rank_weight=0.05,
          bpr_samples=32, seed=42, side_feature_file=None, side_feature_concat=False,
          drug_feature_file=None, evidence_dropout=0.1, dataset_suffix='',
-         pop_weight=0.0, bias_weight=1.0, list_weight=0.0,
+         pop_weight=0.1, bias_weight=1.0, list_weight=0.1,
          assoc_base_weight=1.0, assoc_residual_weight=1.0,
          prevalence_debias=False, debias_gamma=1.0, rare_pos_boost=1.0,
          matched_bpr=False, prevalence_bins=10, external_pairs_dir=None,
@@ -840,15 +840,15 @@ if __name__ == '__main__':
                         help='CAFNet fixed-fusion alpha')
     parser.add_argument('--gat_dropout', type=float, required=False, default=0.0,
                         help='CAFNet GATConv attention dropout for experimental runs')
-    parser.add_argument('--rank_score_mix', type=float, required=False, default=0.7,
+    parser.add_argument('--rank_score_mix', type=float, required=False, default=0.3,
                         help='CAFNetV2 final score mix: association weight in [0, 1]')
     parser.add_argument('--dual_task', action='store_true', default=False,
                         help='Use CAFNetV2 asymmetric association/frequency/ranking loss')
     parser.add_argument('--assoc_weight', type=float, required=False, default=1.0,
                         help='CAFNetV2 association BCE loss weight')
-    parser.add_argument('--freq_weight', type=float, required=False, default=0.2,
+    parser.add_argument('--freq_weight', type=float, required=False, default=1.0,
                         help='CAFNetV2 frequency Huber loss weight')
-    parser.add_argument('--rank_weight', type=float, required=False, default=0.1,
+    parser.add_argument('--rank_weight', type=float, required=False, default=0.05,
                         help='CAFNetV2 BPR ranking loss weight')
     parser.add_argument('--bpr_samples', type=int, required=False, default=32,
                         help='CAFNetV2 positive/negative samples per row for BPR')
@@ -864,9 +864,9 @@ if __name__ == '__main__':
                         help='Short tag for dataset/result names when drug_feature_file is used')
     parser.add_argument('--evidence_dropout', type=float, required=False, default=0.1,
                         help='Dropout in the drug evidence encoder')
-    parser.add_argument('--pop_weight', type=float, required=False, default=0.0)
+    parser.add_argument('--pop_weight', type=float, required=False, default=0.1)
     parser.add_argument('--bias_weight', type=float, required=False, default=1.0)
-    parser.add_argument('--list_weight', type=float, required=False, default=0.0)
+    parser.add_argument('--list_weight', type=float, required=False, default=0.1)
     parser.add_argument('--assoc_base_weight', type=float, required=False, default=1.0)
     parser.add_argument('--assoc_residual_weight', type=float, required=False, default=1.0)
     parser.add_argument('--prevalence_debias', action='store_true', default=False,

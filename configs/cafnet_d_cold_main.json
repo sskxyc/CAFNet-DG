@@ -1,4 +1,4 @@
-﻿{
+{
     "entry_script":  "cold-scence.py",
     "python":  "python",
     "description":  "CAFNet-D cold-start setting (model 3, fixed binary ListNet relevance in this branch).",

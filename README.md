@@ -1,4 +1,4 @@
-﻿# CAFNet-DG
+# CAFNet-DG
 
 Official code release for CAFNet-DG, a graph-based framework for drug-side-effect prioritization and frequency estimation.
 

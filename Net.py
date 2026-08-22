@@ -870,7 +870,7 @@ class CAFNet(torch.nn.Module):
 class CAFNetV2(CAFNet):
     """CAFNet with asymmetric association and frequency prediction heads."""
 
-    def __init__(self, *args, rank_score_mix=0.7, **kwargs):
+    def __init__(self, *args, rank_score_mix=0.3, **kwargs):
         super(CAFNetV2, self).__init__(*args, **kwargs)
         output_dim = kwargs.get("output_dim", 200)
         pair_dim = output_dim * 4 + 1
@@ -970,7 +970,7 @@ class CAFNetDecoupled(CAFNetV2):
         *args,
         num_drugs=750,
         num_sides=994,
-        pop_weight=0.0,
+        pop_weight=0.1,
         bias_weight=1.0,
         assoc_base_weight=1.0,
         assoc_residual_weight=1.0,
